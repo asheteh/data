@@ -1,0 +1,40 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <link rel="icon" href= "{% static '/img/ccat9.png' %}" type="image/gif" >
+ 
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'css/all.css' %}">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  <!-- Custom -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+  <!--Lightbox-->
+  <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
+  <script src ="{% static 'js/jquery-2.0.0.min.js' %}"></script>
+  <script src ="{% static 'assets/js/ajax.js' %}"></script>
+  
+  <title>{% block title %}{% endblock %}</title>
+  <body style>
+     
+       
+          <!-- Top Bar -->
+
+          {% include 'partials/_topbar.html' %}
+           <!-- Nav Bar -->
+
+          {% include 'partials/nav.html' %}
+
+  <!-- Footer -->
+  {% block content %}{% endblock %}
+  {% include 'partials/foot.html' %}
+      
+   <script src="{% static 'js/main.js' %} "></script>
+   <script src="{% static 'js/lightbox.min.js' %} "></script>
+  </body>
+</head>
+
