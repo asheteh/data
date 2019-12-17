@@ -16,7 +16,7 @@ import csv
 
     
 import codecs
-with codecs.open('innovators.csv', 'r') as f:
+with codecs.open('new.csv', 'r') as f:
     reader = csv.reader(f)
     for row in reader:
         cursor.execute('INSERT INTO guitar_chord(song_names, \
@@ -26,12 +26,49 @@ with codecs.open('innovators.csv', 'r') as f:
     
 db.commit()
 db.close()
-       
+
+import pandas as pd
+from pandas.io import sql
+from sqlalchemy import create_engine
+
+df = pd.read_csv('new.csv','utf-8')
+print(df)
+
+
+  
+x=b'\xc4\x8c\xc5\xbd'
+y=x.decode('utf-8')
+print(y)
   
   
+import csv
+with open(r"C:\\Users\\Abhijit.shete\\3D Objects\\guitar\\innovators.csv", 'a+', newline='') as file:
+    writer = csv.writer(file)
+           
+    writer.writerow([name,file_content,"Eng",'new']) 
   
   
-  
-  
-  
+file = open("new.csv","a",newline='')
+    
+    
+with open('innovators.csv','r') as csvfile:
+    readCSV = csv.reader(csvfile, delimiter=',')
+    for row in readCSV:
+         writer = csv.writer(file)
+         name = row[0].replace(u'\xa0', u' ')
+         sargam = row[1].replace(u'\xa0', u' ')
+         
+         writer.writerow([name,sargam,row[2],row[3]]) 
+        
+file.close()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
