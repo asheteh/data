@@ -16,8 +16,7 @@ import csv
 
     
 import codecs
-with codecs.open('innovators.csv', 'r', encoding='ANSI'
-                ) as f:
+with codecs.open('innovators.csv', 'r') as f:
     reader = csv.reader(f)
     for row in reader:
         cursor.execute('INSERT INTO guitar_chord(song_names, \
