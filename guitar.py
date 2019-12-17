@@ -16,7 +16,7 @@ import csv
 
     
 import codecs
-with codecs.open('new.csv', 'r') as f:
+with codecs.open('new.csv', 'r',encoding='utf-8-sig') as f:
     reader = csv.reader(f)
     for row in reader:
         cursor.execute('INSERT INTO guitar_chord(song_names, \
@@ -57,12 +57,19 @@ with open('innovators.csv','r') as csvfile:
          writer = csv.writer(file)
          name = row[0].replace(u'\xa0', u' ')
          sargam = row[1].replace(u'\xa0', u' ')
+         name = name.replace(u'\0x97', u' ')
+         sargam = sargam.replace(u'\0x97', u' ')
+         name = name.replace(u'\0xa0', u' ')
+         sargam = sargam.replace(u'0xa0', u' ')
+         name = name.replace(u'0x97', u' ')
+         sargam = sargam.replace(u'0x97', u' ')
+         
          
          writer.writerow([name,sargam,row[2],row[3]]) 
         
 file.close()
     
-    
+   
     
     
     
