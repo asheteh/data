@@ -9,14 +9,14 @@
     cursor = db.cursor()
         
         
-        
+                
         
         
     import csv
     
         
     import codecs
-    with codecs.open('sargam.csv', 'r',encoding='utf-8-sig') as f:
+    with codecs.open('sargams.csv', 'r',encoding='utf-8-sig') as f:
         reader = csv.reader(f)
         for row in reader:
             row =[row.encode('utf-8').strip() for row in row]
