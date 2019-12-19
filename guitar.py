@@ -19,7 +19,7 @@
     with codecs.open('sargams.csv', 'r',encoding='utf-8-sig') as f:
         reader = csv.reader(f)
         for row in reader:
-            row =[row.encode('utf-8').strip() for row in row]
+           
             cursor.execute('INSERT INTO music_sargams(song_names, \
               sargam,url )' \
               'VALUES("%s", "%s", "%s")', 
@@ -32,7 +32,7 @@ import pandas as pd
 from pandas.io import sql
 from sqlalchemy import create_engine
 
-df = pd.read_csv('new.csv','utf-8')
+df = pd.read_csv('sargams.csv','utf-8')
 print(df)
 
 
@@ -49,10 +49,10 @@ with open(r"C:\\Users\\Abhijit.shete\\3D Objects\\guitar\\innovators.csv", 'a+',
     writer.writerow([name,file_content,"Eng",'new']) 
   
   
-file = open("new.csv","a",newline='',encoding='utf-8')
+file = open("news.csv","a",newline='',encoding='utf-8')
     
     
-with open('innovators.csv','r') as csvfile:
+with open('sargams.csv','r',encoding='utf-8') as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     for row in readCSV:
          writer = csv.writer(file)
@@ -64,13 +64,11 @@ with open('innovators.csv','r') as csvfile:
          sargam = sargam.replace(u'0xa0', u' ')
          name = name.replace(u'0x97', u' ')
          sargam = sargam.replace(u'0x97', u' ')
-         
-         
-         writer.writerow([name,sargam,row[2],row[3]]) 
+         sargam = sargam.replace(u'0x8d', u' ')
+         writer.writerow([name,sargam) 
         
 file.close()
-    
-   
+ 
     
 import mysql.connector as mysql
 db = mysql.connect(
