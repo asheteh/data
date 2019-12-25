@@ -1,0 +1,3885 @@
+  The IETF standards documents are called,"
+  RFC","
+  RCF","
+  ID","
+  None of the mentioned",   a,CN
+"  In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are","
+  Added","
+  Removed","
+  Rearranged","
+  Modified",   a,CN
+  The structure or format of data is called,"
+  Syntax","
+  Semantics","
+  Struct","
+  None of the mentioned",   a,CN
+  Communication between a computer and a keyboard involves ______________ transmission,"
+  Automatic","
+  Half-duplex","
+  Full-duplex","
+  Simplex",   d,CN
+  The first Network,"
+  CNNET","
+  NSFNET","
+  ASAPNET","
+  ARPANET",   d,CN
+  The _______ is the physical path over which a message travels,"
+  Path","
+  Medium","
+  Protocol","
+  Route",   b,CN
+  Which organization has authority over interstate and international commerce in the communications field?,"
+  ITU-T","
+  IEEE","
+  FCC","
+  ISOC",   c,CN
+  Which of this is not a network edge device?,"
+  PC","
+  Smartphones","
+  Servers","
+  Switch",   d,CN
+  A set of rules that governs data communication,"
+  Protocols","
+  Standards","
+  RFCs","
+  None of the mentioned",   a,CN
+  Three or more devices share a link in ________ connection,"
+  Unipoint","
+  Multipoint","
+  Point to point","
+  None of the mentioned",   b,CN
+"  When collection of various computers seems a single coherent system to its client, then it is called","
+  computer network","
+  distributed system","
+  networking system","
+  none of the mentioned",   b,CN
+  Two devices are in network if,"
+  a process in one device is able to exchange information with a process in another device","
+  a process is running on both devices","
+  PIDs of the processes running of different devices are same","
+  none of the mentioned",   a,CN
+  Which one of the following computer network is built on the top of another network?,"
+  prior network","
+  chief network","
+  prime network","
+  overlay network",   d,CN
+  In computer network nodes are,"
+  the computer that originates the data","
+  the computer that routes the data","
+  the computer that terminates the data","
+  all of the mentioned",   d,CN
+  Communication channel is shared by all the machines on the network in,"
+  broadcast network","
+  unicast network","
+  multicast network","
+  none of the mentioned",   a,CN
+  Bluetooth is an example of,"
+  personal area network","
+  local area network","
+  virtual private network","
+  none of the mentioned",   a,CN
+  A __________ is a device that forwards packets between networks by processing the routing information included in the packet.,"
+  bridge","
+  firewall","
+  router","
+  all of the mentioned",   c,CN
+"  A list of protocols used by a system, one protocol per layer, is called","
+  protocol architecture","
+  protocol stack","
+  protocol suite","
+  none of the mentioned",   b,CN
+  Network congestion occurs,"
+  in case of traffic overloading","
+  when a system terminates","
+  when connection between two nodes terminates","
+  none of the mentioned",   a,CN
+  Which one of the following extends a private network across public networks?,"
+  local area network","
+  virtual private network","
+  enterprise private network","
+  storage area network",   b,CN
+  Which of this is not a constituent of residential telephone line?,"
+  A high-speed downstream channel","
+  A medium-speed downstream channel","
+  A low-speed downstream channel","
+  None of the mentioned",   c,CN
+  In DSL telco provides these services,"
+  Wired phone access","
+  ISP","
+  All of the mentioned","
+  None of the mentioned",   c,CN
+  The function of DSLAM is,"
+  Convert analog signals into digital signals","
+  Convert digital signals into analog signals","
+  Amplify digital signals","
+  None of the mentioned",   a,CN
+  The following term is not associted with DSL,"
+  DSLAM","
+  CO","
+  Splitter","
+  CMTS",   d,CN
+  HFC contains,"
+  Fibre cable","
+  Coaxial cable","
+  Both Fibre cable and Coaxial cable","
+  None of the mentioned",   c,CN
+  Choose the statement which is not applicable for cable internet access,"
+  It is a shared broadcast medium","
+  It includes HFCs","
+  Cable modem connects home PC  to Ethernet port","
+  Analog signal is converted to digital signal in DSLAM",   d,CN
+  Among the optical-distribution architectures that are essentially switched ethernet is,"
+  AON","
+  PON","
+  NON","
+  None of the mentioned",  a,CN
+  StarBand provides,"
+  FTTH internet access","
+  Cable access","
+  Telephone access","
+  Satellite access",   d,CN
+  Home Access is provided by,"
+  DSL","
+  FTTP","
+  Cable","
+  All of the mentioned",   d,CN
+  ONT is connected to splitter using,"
+  High speed fibre cable","
+  HFC","
+  Optical cable","
+  None of the mentioned",   c,CN
+1  These factors affect transmission rate in DSL,"
+  The gauge of the twisted-pair line","
+  Degree of electrical interfernece","
+  Shadow fading","
+  Both The gauge of the twisted-pair line and Degree of electrical interfernece",   d,CN
+  The number of layers in Internet protocol stack,"
+  5","
+  7","
+  6","
+  None of the mentioned",   a,CN
+  The number of layers in ISO OSI reference model,"
+  5","
+  7","
+  6","
+  None of the mentioned",   b,CN
+  This layer is an addition to OSI model when compared with TCP IP model,"
+  Application layer","
+  Presentation layer","
+  Session layer","
+  Both Session and Presentation layer",   d,CN
+  Application layer is implemented in,"
+  End system","
+  NIC","
+  Ethernet","
+  None of the mentioned",   a,CN
+  Transport layer is implemented in,"
+  End system","
+  NIC","
+  Ethernet","
+  None of the mentioned",   a,CN
+  The functionalities of presentation layer includes,"
+  Data compression","
+  Data encryption","
+  Data description","
+  All of the mentioned",   d,CN
+  Delimiting and synchronization of data exchange is provided by,"
+  Application layer","
+  Session layer","
+  Transport layer","
+  Link layer",   b,CN
+"  In OSI model, when data is sent from device A to device B, the 5th layer to receive data at B is","
+  Application layer","
+  Transport layer","
+  Link layer","
+  Session layer",   d,CN
+"  In TCP IP Model, when data is sent from device A to device B, the 5th layer to receive data at B is","
+  Application layer","
+  Transport layer","
+  Link layer","
+  Session layer",   a,CN
+"  In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______","
+  Added","
+  Removed","
+  Rearranged","
+  None of the mentioned",   b,CN
+1  Identify the statement which cannot be associated with OSI model,"
+  A structured way to discuss and easier update system components","
+  One layer may duplicate lower layer functionality","
+  Functionality at one layer no way requires information from another layer","
+  None of the mentioned",   c,CN
+  OSI stands for,"
+  open system interconnection","
+  operating system interface","
+  optical service implementation","
+  none of the mentioned",   a,CN
+  The OSI model has _______ layers.,"
+  4","
+  5","
+  6","
+  7",   d,CN
+  TCP/IP model does not have ______ layer but OSI model have this layer.,"
+  session layer","
+  transport layer","
+  application layer","
+  None of the mentioned",   a,CN
+  Which layer links the network support layers and user support layers,"
+  session layer","
+  data link layer","
+  transport layer","
+  network layer",   c,CN
+  Which address is used in an internet employing  the TCP/IP protocols?,"
+  physical address and logical address","
+  port address","
+  specific address","
+  all of the mentioned",   d,CN
+  TCP/IP model was developed _____ the OSI model.,"
+  prior to","
+  after","
+  simultaneous to","
+  none of the mentioned",   a,CN
+  Which layer is responsible for process to process delivery?,"
+  network layer","
+  transport layer","
+  session layer","
+  data link layer",   b,CN
+  Which address identifies a process on a host?,"
+  physical address","
+  logical address","
+  port address","
+  specific address",   c,CN
+  Which layer provides the services to user?,"
+  application layer","
+  session layer","
+  presentation layer","
+  none of the mentioned",   a,CN
+  Transmission data rate is decided by,"
+  network layer","
+  physical layer","
+  data link layer","
+  transport layer",   b,CN
+  The physical layer concerns with,"
+  bit-by-bit delivery","
+p) process to process delivery","
+  application to application delivery","
+  none of the mentioned",   a,CN
+  Which transmission media has the highest transmission speed in a network?,"
+  coaxial cable","
+  twisted pair cable","
+  optical fiber","
+  electrical cable",   c,CN
+  Bits can be send over guided and unguided media as analog signal by,"
+  digital modulation","
+  amplitude modulation","
+  frequency modulation","
+  phase modulation",   a,CN
+  The portion of physical layer that interfaces with the media access control sublayer is called,"
+  physical signalling sublayer","
+  physical data sublayer","
+  physical address sublayer","
+  none of the mentioned",   a,CN
+  physical layer provides,"
+  mechanical specifications of electrical connectors and cables","
+  electrical specification of transmission line signal level","
+  specification for IR over optical fiber","
+  all of the mentioned",   d,CN
+  In asynchronous serial communication the physical layer provides,"
+  start and stop signalling","
+  flow control","
+  both start & stop signalling and flow control","
+  none of the mentioned",   c,CN
+  The physical layer is responsible for,"
+  line coding","
+  channel coding","
+  modulation","
+  all of the mentioned",   d,CN
+  The physical layer translates logical communication requests from the ______ into hardware specific operations.,"
+  data link layer","
+  network layer","
+  trasnport layer","
+  application layer",   a,CN
+  A single channel is shared by multiple signals by,"
+  analog modulation","
+  digital modulation","
+  multiplexing","
+  none of the mentioned",   c,CN
+  Wireless transmission can be done via,"
+  radio waves","
+  microwaves","
+  infrared","
+  all of the mentioned",   d,CN
+  The data link layer takes the packets from _________ and encapsulates them into frames for transmission.,"
+  network layer","
+  physical layer","
+  transport layer","
+  application layer",   a,CN
+  Which one of the following task is not done by data link layer?,"
+  framing","
+  error control","
+  flow control","
+  channel coding",   d,CN
+  Which sublayer of the data link layer performs data link functions that depend upon the type of medium?,"
+  logical link control sublayer","
+  media access control sublayer","
+  network interface control sublayer","
+  none of the mentioned",   b,CN
+  Header of a frame generally contains,"
+  synchronization bytes","
+  addresses","
+  frame identifier","
+  all of the mentioned",   d,CN
+  Automatic repeat request error management mechanism is provided by,"
+  logical link control sublayer","
+  media access control sublayer","
+  network interface control sublayer","
+  none of the mentioned",   a,CN
+"  When 2 or more bits in a data unit has been changed during the transmission, the error is called","
+  random error","
+  burst error","
+  inverted error","
+  none of the mentioned",   b,CN
+  CRC stands for,"
+  cyclic redundancy check","
+  code repeat check","
+  code redundancy check","
+  cyclic repeat check",   a,CN
+  Which one of the following is a data link protocol?,"
+  ethernet","
+  point to point protocol","
+  hdlc","
+  all of the mentioned",   d,CN
+  Which one of the following is the multiple access protocol for channel access control?,"
+  CSMA/CD","
+  CSMA/CA","
+  Both CSMA/CD & CSMA/CA","
+  None of the mentioned",   c,CN
+  The technique of temporarily delaying outgoing acknowledgements so that they can be hooked onto the next outgoing data frame is called,"
+  piggybacking","
+  cyclic redundancy check","
+  fletcher’s checksum","
+  none of the mentioned",   a,CN
+  The network layer concerns with,"
+  bits","
+  frames","
+  packets","
+  none of the mentioned",   c,CN
+  Which one of the following is not a function of network layer?,"
+  routing","
+  inter-networking","
+  congestion control","
+  none of the mentioned",   d,CN
+  The 4 byte IP address consists of,"
+  network address","
+  host address","
+  both network address & host address","
+  none of the mentioned",   c,CN
+  In virtual circuit network each packet contains,"
+  full source and destination address","
+  a short VC number","
+  only source address","
+  only destination address",   b,CN
+  Which one of the following routing algorithm can be used for network layer design?,"
+  shortest path algorithm","
+  distance vector routing","
+  link state routing","
+  all of the mentioned",   d,CN
+  Multidestination routing,"
+  is same as broadcast routing","
+  contains the list of all destinations","
+  data is not sent by packets","
+  none of the mentioned",   c,CN
+  A subset of a network that includes all the routers but contains no loops is called,"
+  spanning tree","
+  spider structure","
+  spider tree","
+  none of the mentioned",   a,CN
+  Which one of the following algorithm is not used for congestion control?,"
+  traffic aware routing","
+  admission control","
+  load shedding","
+  none of the mentioned",   d,CN
+  The network layer protocol of internet is,"
+  ethernet","
+  internet protocol","
+  hypertext transfer protocol","
+  none of the mentioned",   b,CN
+  ICMP is primarily used for,"
+  error and diagnostic functions","
+  addressing","
+  forwarding","
+  none of the mentioned",   a,CN
+  Transport layer aggregates data from different applications into a single stream before passing it to,"
+  network layer","
+  data link layer","
+  application layer","
+  physical layer",   a,CN
+  Which one of the following is a transport layer protocol used in networking?,"
+  TCP","
+  UDP","
+  Both TCP and UDP","
+  None of the mentioned",   c,CN
+  User datagram protocol is called connectionless because,"
+  all UDP packets are treated independently by transport layer","
+  it sends data as a stream of related packets","
+  it is received in the same order as sent order","
+  none of the mentioned",   a,CN
+  Transmission control protocol is,"
+  connection oriented protocol","
+  uses a three way handshake to establish a connection","
+  recievs data from application as a single stream","
+  all of the mentioned",   d,CN
+  An endpoint of an inter-process communication flow across a computer network is called,"
+  socket","
+  pipe","
+  port","
+  none of the mentioned",   a,CN
+  Socket-style API for windows is called,"
+  wsock","
+  winsock","
+  wins","
+  none of the mentioned",   b,CN
+  Which one of the following is a version of UDP with congestion control?,"
+  datagram congestion control protocol","
+  stream control transmission protocol","
+  structured stream transport","
+  none of the mentioned",   a,CN
+  A _____ is a TCP name for a transport service access point.,"
+  port","
+  pipe","
+  node","
+  none of the mentioned",   a,CN
+  Transport layer protocols deals with,"
+  application to application communication","
+  process to process communication","
+  node to node communication","
+  none of the mentioned",   b,CN
+  Which one of the following is a transport layer protocol?,"
+  stream control transmission protocol","
+  internet control message protocol","
+  neighbor discovery protocol","
+  dynamic host configuration protocol",   a,CN
+  Physical or logical arrangement of network is __________,"
+  Topology","
+  Routing","
+  Networking","
+  None of the mentioned",   a,CN
+  In which topology there is a central controller or hub?,"
+  Star","
+  Mesh","
+  Ring","
+  Bus",   a,CN
+  This topology requires multipoint connection,"
+  Star","
+  Mesh","
+  Ring","
+  Bus",   d,CN
+"  Data communication system spanning states, countries, or the whole world is ________","
+  LAN","
+  WAN","
+  MAN","
+  None of the mentioned",   b,CN
+  Data communication system within a building or campus is________,"
+  LAN","
+  WAN","
+  MAN","
+  None of the mentioned",   a,CN
+  Expand WAN?,"
+  World area network","
+  Wide area network","
+  Web area network","
+  None of the mentioned",   b,CN
+"  In TDM, slots are further divided into __________","
+  Seconds","
+  Frames","
+  Packets","
+  None of the mentioned",   b,CN
+  Multiplexing technique that shifts each signal to a different carrier frequency,"
+  FDM","
+  TDM","
+  Both FDM & TDM","
+  None of the mentioned",   a,CN
+  The sharing of a medium and its link by two or more devices is called _________,"
+  Fully duplexing","
+  Multiplexing","
+  Both Fully duplexing and Multiplexing","
+  Duplexing",   b,CN
+  Multiplexing is used in _______,"
+  Packet switching","
+  Circuit switching","
+  Data switching","
+  Packet & Circuit switching",   b,CN
+  Which multiplexing technique transmits digital signals?,"
+  FDM","
+  TDM","
+  WDM","
+  FDM & WDM",   b,CN
+  If there are n signal sources of same data rate than TDM link has _______ slots.,"
+  n","
+  n/2","
+  n*2","
+  2",   a,CN
+"  If link transmits 4000frames per second, and each slot has 8 bits, the transmission rate of circuit this TDM is _________","
+  32kbps","
+  500bps","
+  500kbps","
+  None of the mentioned",   a,CN
+  The state when dedicated signals are idle are called __________,"
+  Death period","
+  Poison period","
+  Silent period","
+  None of the mentioned",   c,CN
+  Multiplexing can provide _________,"
+  Efficiency","
+  Privacy","
+  Anti jamming","
+  Both Efficiency & Privacy",   d,CN
+"  In TDM, the transmission rate of the multiplexed path is usually _______ the sum of the transmission rates of the signal sources.","
+  Greater than","
+  Lesser than","
+  Equal to","
+  Equal to or greater than",   a,CN
+"  In TDM, slots are further divided into _________","
+  Seconds","
+  Frames","
+  Packets","
+  None of the mentioned",   b,CN
+  Which of the following delay is faced by the packet in travelling from one end system to another ?,"
+  Propagation delay","
+  Queuing delay","
+  Transmission delay","
+  All of the mentioned",   d,CN
+"  For a 10Mbps Ethernet link, if the length of the packet is 32bits, the transmission delay is(in microseconds)","
+   2","
+  32","
+  0.32","
+  320",   a,CN
+  The time required to examine the packet’s header and determine where to direct the packet is part of,"
+  Processing delay","
+  Queuing delay","
+  Transmission delay","
+  All of the mentioned",   a,CN
+"  Traffic intensity is given by, where L = number of bits in the packet a = average rate R = transmission rate","
+  La/R","
+  LR/a","
+  R/La","
+  None of the mentioned",   a,CN
+"  In the transfer of file between server and client, if the transmission rates along the path is 10Mbps, 20Mbps, 30Mbps, 40Mbps. The throughput is usually","
+  20Mbps","
+  10Mbps","
+  40Mbps","
+  50Mbps",   b,CN
+  If end to end delay is given by dend-end = N(dproc + dtrans + dprop) is a non congested network. The number of routers between source and destination is,"
+  N/2","
+  N","
+  N-1","
+  2N",   c,CN
+  The total nodal delay is given by,"
+  dnodal = dproc – dqueue + dtrans + dprop","
+  dnodal = dproc + dtrans – dqueue","
+  dnodal = dproc + dqueue + dtrans + dprop","
+  dnodal = dproc + dqueue – dtrans – dprop",   c,CN
+"  In a network, If P is the only packet being transmitted and there was no earlier transmission, which of the following delays could be zero","
+  Propogation delay","
+  Queuing delay","
+  Transmission delay","
+  Processing delay",   b,CN
+  Transmission delay does not depend on,"
+  Packet length","
+  Distance between the routers","
+  Transmission rate","
+  None of the mentioned",   b,CN
+  Propagation delay depends on,"
+  Packet length","
+  Transmission rate","
+  Distance between the routers","
+  None of the mentioned",   c,CN
+  The attackers a network of compromised devices known as,"
+  Internet","
+  Botnet","
+  Telnet","
+  D-net",   b,CN
+  Which of the following is a form of DoS attack ?,"
+  Vulnerability attack","
+  Bandwidth flooding","
+  Connection flooding","
+  All of the mentioned",   d,CN
+  The DoS attack is which the attacker establishes a large number of half-open or fully open TCP connections at the target host,"
+  Vulnerability attack","
+  Bandwidth flooding","
+  Connection flooding","
+  All of the mentioned",   c,CN
+  The DoS attack is which the attacker sends deluge of packets to the targeted host,"
+  Vulnerability attack","
+  Bandwidth flooding","
+  Connection flooding","
+  All of the mentioned",   b,CN
+  Packet sniffers involve,"
+  Active receiver","
+  Passive receiver","
+  Both Active receiver and Passive receiver","
+  None of the mentioned",   b,CN
+  Sniffers can be deployed in,"
+  Wired environment","
+  WiFi","
+  Ethernet LAN","
+  All of the mentioned",   d,CN
+  Firewalls are often configured to block,"
+  UDP traffic","
+  TCP traffic","
+  Both of the mentioned","
+  None of the mentioned",   a,CN
+"  In a network, If P is the only packet being transmitted and there was no earlier transmission, which of the following delays could be zero","
+  Propogation delay","
+  Queuing delay","
+  Transmission delay","
+  Processing delay",   b,CN
+  Which of this is not a guided media?,"
+  Fiber optical cable","
+  Coaxial cable","
+  Wireless LAN","
+  Copper wire",   c,CN
+  UTP is commonly used in __________,"
+  DSL","
+  FTTP","
+  HTTP","
+  None of the mentioned",   a,CN
+  Coaxial cable consists of _______ concentric copper conductors.,"
+  1","
+  2","
+  3","
+  4",   b,CN
+  Fiber optics posses following properties __________,"
+  Immune electromagnetic interference","
+  Very less signal attenuation","
+  Very hard to tap","
+  All of the mentioned",   d,CN
+"  If an Optical Carrier is represented as OC-n, generally the link speed equals(in Mbps) __________","
+  n*3 8","
+  n*5 8","
+  2n*5 8","
+  None of the mentioned",   b,CN
+  Terrestrial radio channels are broadly classifed into _____ groups.,"
+  2","
+  3","
+  4","
+  1",   b,CN
+  Radio channels are attractive medium because __________,"
+  Can penetrate walls","
+  Connectivity can be given to mobile user","
+  Can carry signals for long distance","
+  All of the mentioned",   d,CN
+  Geostationary satellites ___________,"
+  Are placed at a fixed point above the earth","
+  Rotate the earth about a fixed axis","
+  Rotate the earth about a varying axis","
+  All of the mentioned",   a,CN
+  A local telephone network is an example of a _______ network.,"
+  Packet switched","
+  Circuit switched","
+  Both Packet switched and Circuit switched","
+  Line switched",   b,CN
+  Most packet switches use this principle ____________,"
+  Stop and wait","
+  Store and forward","
+  Both Stop and wait and Store and forward","
+  Stop and forward",   b,CN
+"  If there are N routers from source to destination, a total end to end delay in sending packet P(L-> number of bits in the packet  R-> transmission rate)","
+  N","
+  (N*L)/R","
+  (2N*L)/R","
+  L/R",   b,CN
+  What are the Methods to move data through a network of links and switches?,"
+  Packet switching","
+  Circuit switching","
+  Line switching","
+  Both Packet switching and Circuit switching",   d,CN
+  The resources needed for communication between end systems are reserved for the duration of the session between end systems in ________,"
+  Packet switching","
+  Circuit switching","
+  Line switching","
+  Frequency switching",   b,CN
+"  As the resouces are reserved between two communicating end systems in circuit switching, this is achieved ___________","
+  authentication","
+  guaranteed constant rate","
+  reliability","
+  store and forward",   b,CN
+  In _________ resources are allocated on demand.,"
+  packet switching","
+  circuit switching","
+  line switching","
+  frequency switching",   a,CN
+  Which of the following is an application layer service?,"
+  Network virtual terminal","
+  File transfer, access, and management","
+  Mail service","
+  All of the mentioned",   d,CN
+  Which is not a application layer protocol?,"
+  HTTP","
+  SMTP","
+  FTP","
+  TCP",   d,CN
+  The packet of information at the application layer is called __________,"
+  Packet","
+  Message","
+  Segment","
+  Frame",   b,CN
+  Which one of the following is an architecture paradigms?,"
+  Peer to peer","
+  Client-server","
+  HTTP","
+  Both Peer-to-Peer & Client-Server",   d,CN
+  Application developer has permission to decide the following on transport layer side,"
+  Transport layer protocol","
+  Maximum buffer size","
+  Both Transport layer protocol and Maximum buffer size","
+  None of the mentioned",   c,CN
+  Application layer offers _______ service.,"
+  End to end","
+  Process to process","
+  Both End to end and Process to process","
+  None of the mentioned",   a,CN
+  E-mail is _________,"
+  Loss-tolerant application","
+  Bandwidth-sensitive application","
+  Elastic application","
+  None of the mentioned",   c,CN
+  Pick the odd one out.,"
+  File transfer","
+  File download","
+  E-mail","
+  Interactive games",   d,CN
+  Which of the following is an application layer service?,"
+  Network virtual terminal","
+  File transfer, access, and management","
+  Mail service","
+  All of the mentioned",   d,CN
+"  To deliver a message to the correct application program running on a host, the _______ address must be consulted.","
+  IP","
+  MAC","
+  Port","
+  None of the mentioned",   c,CN
+  Which is a time-sensitive service?,"
+  File transfer","
+  File download","
+  E-mail","
+  Internet telephony",   d,CN
+1  Transport services available to applications in one or another form _________,"
+  Reliable data transfer","
+  Timing","
+  Security","
+  All of the mentioned",   d,CN
+1  Electronic mail uses which Application layer protocol?,"
+  SMTP","
+  HTTP","
+  FTP","
+  SIP",   a,CN
+  The ____________ translates internet domain and host names to IP address.,"
+  domain name system","
+  routing information protocol","
+  network time protocol","
+  internet relay chat",   a,CN
+  Which one of the following allows a user at one site to establish a connection to another site and then pass keystrokes from local host to remote host?,"
+  HTTP","
+  FTP","
+  Telnet","
+  TCP",   c,CN
+  Application layer protocol defines ____________,"
+  types of messages exchanged","
+  message format, syntax and semantics","
+  rules for when and how processes send and respond to messages","
+  all of the mentioned",   d,CN
+  Which one of the following protocol delivers/stores mail to reciever server?,"
+  simple mail transfer protocol","
+  post office protocol","
+  internet mail access protocol","
+  hypertext transfer protocol",   a,CN
+  The ASCII encoding of binary data is called,"
+  base 64 encoding","
+  base 32 encoding","
+  base 16 encoding","
+  base 8 encoding",   a,CN
+  Which one of the following is an internet standard protocol for managing devices on IP network?,"
+  dynamic host configuration protocol","
+  simple network management protocol","
+  internet message access protocol","
+  media gateway protocol",   b,CN
+  Which one of the following is not an application layer protocol?,"
+  media gateway protocol","
+  dynamic host configuration protocol","
+  resource reservation protocol","
+  session initiation protocol",   c,CN
+  Which protocol is a signaling communication protocol used for controlling multimedia communication sessions?,"
+  session initiation protocol","
+  session modelling protocol","
+  session maintenance protocol","
+  resource reservation protocol",   a,CN
+  Which one of the following is not correct?,"
+  Application layer protocols are used by both source and destination devices during a communication session","
+  HTTP is a session layer protocol","
+  TCP is an application layer protocol","
+  All of the mentioned",   d,CN
+"  When displaying a web page, the application layer uses the _____________","
+  HTTP protocol","
+  FTP protocol","
+  SMTP protocol","
+  TCP protocol",   a,CN
+  The number of objects in a Web page which consists of 4 jpeg images and HTML text is ________,"
+  4","
+  1","
+  5","
+  7",   c,CN
+  The default connection type used by HTTP is _________,"
+  Persistent","
+  Non-persistent","
+  Can be either persistent or non-persistent depending on connection request","
+  None of the mentioned",   a,CN
+  The time taken by a packet to travel from client to server and then back to the client is called __________,"
+  STT","
+  RTT","
+  PTT","
+  JTT",   b,CN
+  The HTTP request message is sent in _________ part of three-way handshake.,"
+  First","
+  Second","
+  Third","
+  Fourth",   c,CN
+  In the process of fetching a web page from a server the HTTP request/response takes __________ RTTs.,"
+  2","
+  1","
+  4","
+  3",   b,CN
+  The first line of HTTP request message is called _____________,"
+  Request line","
+  Header line","
+  Status line","
+  Entity line",   a,CN
+"  The values GET, POST, HEAD etc are specified in ____________ of HTTP message","
+  Request line","
+  Header line","
+  Status line","
+  Entity body",   a,CN
+"  The __________ method when used in the method field, leaves entity body empty.","
+  POST","
+  SEND","
+  GET","
+  PUT",   c,CN
+  The HTTP response message leaves out the requested object when ____________ method is used,"
+  GET","
+  POST","
+  HEAD","
+  PUT",   c,CN
+  Find the oddly matched HTTP status codes,"
+  200 OK","
+  400 Bad Request","
+  301 Moved permanently","
+  304 Not Found",   d,CN
+1  Which of the following is not correct?,"
+  Web cache doesnt has its own disk space","
+  Web cache can act both like server and client","
+  Web cache might reduce the response time","
+  Web cache contains copies of recently requested objects",   a,CN
+1  The conditional GET mechanism,"
+  Imposes conditions on the objects to be requested","
+  Limits the number of response from a server","
+  Helps to keep a cache upto date","
+  None of the mentioned",   c,CN
+1  Which of the following is present in both an HTTP request line and a status line?,"
+  HTTP version number","
+  URL","
+  Method","
+  None of the mentioned",   a,CN
+  Multiple object can be sent over a TCP connection between client and server in,"
+  persistent HTTP","
+  nonpersistent HTTP","
+  both persistent HTTP and nonpersistent HTTP","
+  none of the mentioned",   a,CN
+  HTTP is ________ protocol.,"
+  application layer","
+  transport layer","
+  network layer","
+  none of the mentioned",   a,CN
+  In the network HTTP resources are located by,"
+  uniform resource identifier","
+  unique resource locator","
+  unique resource identifier","
+  none of the mentioned",   a,CN
+  HTTP client requests by establishing a __________ connection to a particular port on the server.,"
+  user datagram protocol","
+  transmission control protocol","
+  broader gateway protocol","
+  none of the mentioned",   b,CN
+  In HTTP pipelining,"
+  multiple HTTP requests are sent on a single TCP connection without waiting for the corresponding responses","
+  multiple HTTP requests can not be sent on a single TCP connection","
+  multiple HTTP requests are sent in a queue on a single TCP connection","
+  none of the mentioned",   a,CN
+  FTP server listens for connection on port number,"
+  20","
+  21","
+  22","
+  23",   b,CN
+"  In FTP protocol, client contacts server using ____ as the transport protocol.","
+  transmission control protocol","
+  user datagram protocol","
+  datagram congestion control protocol","
+  stream control transmission protocol",   a,CN
+"  In which mode FTP, the client initiates both the control and data connections.","
+  active mode","
+  passive mode","
+  both active mode and passive mode","
+  none of the mentioned",   b,CN
+  The file transfer protocol is built on,"
+  data centric architecture","
+  service oriented architecture","
+  client server architecture","
+  none of the mentioned",   c,CN
+"  In file transfer protocol, data transfer can be done in","
+  stream mode","
+  block mode","
+  compressed mode","
+  all of the mentioned",   d,CN
+  Expansion of FTP is,"
+  Fine Transfer Protocol","
+  File Transfer Protocol","
+  First Transfer Protocol","
+  None of the mentioned",   b,CN
+  FTP is built on _____ architecture,"
+  Client-server","
+  P2P","
+  Both of the mentioned","
+  None of the mentioned",   a,CN
+  FTP uses _________ parallel TCP connections to transfer a file,"
+  1","
+  2","
+  3","
+  4",   b,CN
+  Identify the incorrect statement,"
+  FTP stands for File Transfer Protocol","
+  FTP uses two parallel TCP connections","
+  FTP sends its control information in-band","
+  FTP sends exactly one file over the data connection",   c,CN
+  If 5 files are transfered from server A to client B in the same session. The number of TCP connection between A and B is,"
+  5","
+  10","
+  2","
+  6",   d,CN
+  FTP server,"
+  Mantains state","
+  Is stateless","
+  Has single TCP connection for a file transfer","
+  None of the mentioned",   a,CN
+"  The commands, from client to server, and replies, from server to client, are sent across the control connection in ________ bit ASCII format","
+  8","
+  7","
+  3","
+  5",   b,CN
+  Find the FTP reply whose message is wrongly matched,"
+  331 – Username OK, password required","
+  425 – Can’t open data connection","
+  452 – Error writing file","
+  452 – Can’t open data connection",   d,CN
+"  Mode of data transfer in FTP, where all the is left to TCP","
+  Stream mode","
+  Block mode","
+  Compressed mode","
+  None of the mentioned",   a,CN
+  The password is sent to the server using ________ command,"
+  PASSWD","
+  PASS","
+  PASSWORD","
+  None of the mentioned",   b,CN
+  When the mail server sends mail to other mail servers it becomes ____________,"
+  SMTP server","
+  SMTP client","
+  Peer","
+  None of the mentioned",   b,CN
+  If you have to send multimedia data over SMTP it has to be encoded into,"
+  Binary","
+  Signal","
+  ASCII","
+  None of the mentioned",   c,CN
+  Expansion of SMTP is,"
+  Simple Mail Transfer Protocol","
+  Simple Message Transfer Protocol","
+  Simple Mail Transmission Protocol","
+  Simple Message Transmission Protocol",   a,CN
+"  In SMTP, the command to write recievers mail adress is written with this command","
+  SEND TO","
+  RCPT TO","
+  MAIL TO","
+  None of the mentioned",   b,CN
+  The underlying Transport layer protocol used by SMTP is,"
+  TCP","
+  UDP","
+  Either TCP or UDP","
+  None of the mentioned",   a,CN
+  Choose the statement which is wrong incase of SMTP,"
+  It requires message to be in 7bit ASCII format","
+  It is a pull protocol","
+  It transfers files from one mail server to another mail server","
+  None of the mentioned",   b,CN
+  Internet mail places each object in,"
+  Separate messages for each object","
+  One message","
+  Varies with number of objects","
+  None of the mentioned",   b,CN
+  Typically the TCP port used by SMTP is,"
+  25","
+  35","
+  50","
+  15",   a,CN
+  A session may include,"
+  Zero or more SMTP transactions","
+  Exactly one SMTP transactions","
+  Always more than one SMTP transactions","
+  Number of SMTP transactions cant be determined",   a,CN
+  Example of user agents for e-mail,"
+  Microsoft Outlook","
+  Apple Mail","
+  None of the above","
+  All of the mentioned",   a,CN
+"1  When the sender and the receiver of an email are on different systems, we need only _________","
+  One MTA","
+  Two UAs","
+  Two UAs and one pair of MTAs","
+  Two UAs and two pairs of MTAs",   d,CN
+1  User agent does not support this,"
+  Composing messages","
+  Reading messages","
+  Replying messages","
+  All of the mentioned",   d,CN
+  Simple mail transfer protocol (SMTP) utilizes _________ as the transport layer protocol for electronic mail transfer.,"
+  TCP","
+  UDP","
+  DCCP","
+  SCTP",  a,CN
+  SMTP connections secured by SSL are known as,"
+  SMTPS","
+  SSMTP","
+  SNMP","
+  None of the mentioned",  a,CN
+  SMTP uses the TCP port,"
+  22","
+  23","
+  24","
+  25",  d,CN
+  Which one of the following protocol is used to receive mail messages?,"
+  smtp","
+  post office protocol","
+  internet message access protocol","
+  all of the mentioned",  d,CN
+  What is on-demand mail relay (ODMR)?,"
+  protocol for SMTP security","
+  an SMTP extension","
+  protocol for web pages","
+  none of the mentioned",  b,CN
+  An email client needs to know the _________ of its initial SMTP server.,"
+  IP address","
+  MAC address","
+  Url","
+  None of the mentioned",  a,CN
+  A SMTP session may include,"
+  zero SMTP transaction","
+  one SMTP transaction","
+  more than one SMTP transaction","
+  all of the mentioned",  d,CN
+  SMTP defines,"
+  message transport","
+  message encryption","
+  message content","
+  none of the mentioned",  a,CN
+  Which one of the following is an SMTP server configured in such a way that anyone on the internet can send e-mail through it?,"
+  open mail relay","
+  wide mail reception","
+  open mail reception","
+  none of the mentioned",  a,CN
+  SMTP is used to deliver messages to,"
+  user’s terminal","
+  user’s mailbox","
+  both user’s terminal and mailbox","
+  none of the mentioned",  c,CN
+  The entire hostname has a maximum of ___________,"
+  255 characters","
+  127 characters","
+  63 characters","
+  31 characters",   a,CN
+  A DNS client is called _________,"
+  DNS updater","
+  DNS resolver","
+  DNS handler","
+  none of the mentioned",   b,CN
+  Servers handle requests for other domains _______,"
+  directly","
+  by contacting remote DNS server","
+  it is not possible","
+  none of the mentioned",   b,CN
+  DNS database contains _______,"
+  name server records","
+  hostname-to-address records","
+  hostname aliases","
+  all of the mentioned",   d,CN
+  If a server has no clue about where to find the address for a hostname then _______,"
+  server asks to the root server","
+  server asks to its adjcent server","
+  request is not processed","
+  none of the mentioned",   a,CN
+  Which one of the following allows client to update their DNS entry as their IP address change?,"
+  dynamic DNS","
+  mail transfer agent","
+  authoritative name server","
+  none of the mentioned",   a,CN
+  Wildcard domain names start with label _______,"
+  @","
+  *","
+  &","
+  #",   b,CN
+  The right to use a domain name is delegated by domain name registers which are accredited by _______,"
+  internet architecture board","
+  internet society","
+  internet research task force","
+  internet corporation for assigned names and numbers",   d,CN
+  The domain name system is maintained by _______,"
+  distributed database system","
+  a single server","
+  a single computer","
+  none of the mentioned",   a,CN
+  Which one of the following is not true?,"
+  multiple hostnames may correspond to a single IP address","
+  a single hostname may correspond to many IP addresses","
+  a single hostname may correspond to a single IP address","
+  none of the mentioned",   c,CN
+  Secure shell (SSH) network protocol is used for __________,"
+  secure data communication","
+  remote command-line login","
+  remote command execution","
+  all of the mentioned",   d,CN
+  SSH can be used in only _____________,"
+  unix-like operating systems","
+  windows","
+  both unix-like and windows systems","
+  none of the mentioned",   c,CN
+  SSH uses ___________ to authenticate the remote computer.,"
+  public-key cryptography","
+  private-key cryptography","
+  any of public-key or private-key","
+  both public-key & private-key",   a,CN
+  Which standard TCP port is assigned for contacting SSH servers?,"
+  port 21","
+  port 22","
+  port 23","
+  port 24",   b,CN
+  Which one of the following protocol can be used for login to a shell on a remote host except SSH?,"
+  telnet","
+  rlogin","
+  both telnet and rlogin","
+  none of the mentioned",   c,CN
+  Which one of the following is a file transfer protocol using SSH?,"
+  SCP","
+  SFTP","
+  Rsync","
+  All of the mentioned",   d,CN
+  SSH-2 does not contain ______________,"
+  transport layer","
+  user authentication layer","
+  physical layer","
+  connection layer",   c,CN
+"  Which one of the following feature was present in SSH protocol, version 1?","
+  password changing","
+  periodic replacement of session keys","
+  support for public-key certificates","
+  none of the mentioned",   d,CN
+  SCP protocol is evolved from __________ over SSH.,"
+  RCP protocol","
+  DHCP protocol","
+  MGCP protocol","
+  GCP protocol",   a,CN
+  Which one of the following authentication method is used by SSH?,"
+  public-key","
+  host based","
+  password","
+  all of the mentioned",   d,CN
+  DHCP (dynamic host configuration protocol) provides __________ to the client.,"
+  IP address","
+  MAC address","
+  Url","
+  None of the mentioned",   a,CN
+  DHCP is used for ________,"
+  IPv6","
+  IPv4","
+  Both IPv6 and IPv4","
+  None of the mentioned",   c,CN
+  The DHCP server _________,"
+  maintains a database of available IP addresses","
+  maintains the information about client configuration parameters","
+  grants a IP address when receives a request from a client","
+  all of the mentioned",   d,CN
+  IP assigned for a client by DHCP server is,"
+  for a limited period","
+  for an unlimited period","
+  not time dependent","
+  none of the mentioned",   a,CN
+  DHCP uses UDP port _________ for sending data to the server.,"
+  66","
+  67","
+  68","
+  69",   b,CN
+  The DHCP server can provide the _______ of the IP addresses.,"
+  dynamic allocation","
+  automatic allocation","
+  static allocation","
+  all of the mentioned",   d,CN
+  DHCP client and servers on the same subnet communicate via _________,"
+  UDP broadcast","
+  UDP unicast","
+  TCP broadcast","
+  TCP unicast",   a,CN
+"  After obtaining the IP address, to prevent the IP conflict the client may use _________","
+  internet relay chat","
+  broader gateway protocol","
+  address resolution protocol","
+  none of the mentioned",   c,CN
+  What is DHCP snooping?,"
+  techniques applied to ensure the security of an existing DHCP infrastructure","
+  encryption of the DHCP server requests","
+  algorithm for DHCP","
+  none of the mentioned",   a,CN
+"  If DHCP snooping is configured on a LAN switch, then clients having specific ______ can access the network.","
+  MAC address","
+  IP address","
+  Both MAC address and IP address","
+  None of the mentioned",   c,CN
+  IPsec is designed to provide the security at the,"
+  Transport layer","
+  Network layer","
+  Application layer","
+  Session layer",  b,CN
+  In tunnel mode IPsec protects the,"
+  Entire IP packet","
+  IP header","
+  IP payload","
+  None of the mentioned",  a,CN
+  Which component is included in IP security?,"
+  Authentication Header (AH)","
+  Encapsulating Security Payload (ESP)","
+  Internet key Exchange (IKE)","
+  All of the mentioned",  d,CN
+  WPA2 is used for security in,"
+  Ethernet","
+  Bluetooth","
+  Wi-Fi","
+  None of the mentioned",  c,CN
+  An attempt to make a computer resource unavailable to its intended users is called,"
+  Denial-of-service attack","
+  Virus attack","
+  Worms attack","
+  Botnet process",  a,CN
+  Extensible authentication protocol is authentication framework frequently used in,"
+  Wired personal area network","
+  Wireless networks","
+  Wired local area network","
+  None of the mentioned", b,CN
+  Pretty good privacy (PGP) is used in,"
+  Browser security","
+  Email security","
+  FTP security","
+  None of the mentioned",  b,CN
+  PGP encrypts data by using a block cipher called,"
+  International data encryption algorithm","
+  Private data encryption algorithm","
+  Internet data encryption algorithm","
+  None of the mentioned",  a,CN
+"  When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, then it is called","
+  DNS lookup","
+  DNS hijacking","
+  DNS spoofing","
+  None of the mentioned",  c,CN
+"  A ___________ is an extension of an enterprise’s private intranet across a public network such as the internet, creating a secure private connection.","
+  VNP","
+  VPN","
+  VSN","
+  VSPN",  b,CN
+  When were VPNs introduced into the commercial world?,"
+  Early 80’s","
+  Late 80’s","
+  Early 90’s","
+  Late 90’s",  d,CN
+  What protocol is NOT used in the operation of a VPN?,"
+  PPTP","
+  IPsec","
+  YMUM","
+  L2TP",  c,CN
+  Which of the following statements is NOT true concerning VPNs?,"
+  Financially rewarding compared to leased lines","
+  Allows remote workers to access corporate data","
+  Allows LAN-to-LAN connectivity over public networks","
+  Is the backbone of the Internet",  d,CN
+  Traffic in a VPN is NOT ____________,"
+  Invisible from public networks","
+  Logically separated from other traffic","
+  Accessible from unauthorized public networks","
+  Restricted to a single protocol in IPsec",  c,CN
+  VPNs are financially speaking __________,"
+  Always more expensive than leased lines","
+  Always cheaper than leased lines","
+  Usually cheaper than leased lines","
+  Usually more expensive than leased lines",  c,CN
+  Which layer 3 protocols can be transmitted over a L2TP VPN?,"
+  IP","
+  IPX","
+  Neither IP or IPX","
+  Both IP or IPX",  d,CN
+  ESP (Encapsulating Security Protocol) is defined in which of the following standards?,"
+  IPsec","
+  PPTP","
+  PPP","
+  L2TP",  a,CN
+  L2F was developed by which company?,"
+  Microsoft","
+  Cisco","
+  Blizzard Entertainment","
+  IETF",  b,CN
+  Which layer of the OSI reference model does PPTP work at?,"
+  Layer 1","
+  Layer 2","
+  Layer 3","
+  Layer 4",  b,CN
+1  Which layer of the OSI reference model does IPsec work at?,"
+  Layer 1","
+  Layer 2","
+  Layer 3","
+  Layer 4",  c,CN
+  Storage management comprises of,"
+ 	  SAN Management","
+ 	  Data protection","
+ 	  Disk operation","
+ 	  All of the mentioned",  d,CN
+  Identify the storage devices,"
+ 	  Switch","
+ 	  RAID Arrays","
+ 	  Tape drives","
+ 	  All of the mentioned",  d,CN
+  Which protocols are used for Storage management?,"
+ 	  SNMP","
+ 	  LDAP","
+ 	  POP3","
+ 	  MIB",  a,CN
+  Identify the difficulties the SAN administrator incur while dealing with diverse vendors,"
+ 	  Proprietary management interfaces","
+ 	  Multiple applications to manage storage in the data center","
+ 	  No single view","
+ 	  All of the mentioned",  d,CN
+  How do Storage administrators ensure secure access to storage devices:,"
+ 	  By using Zoning","
+ 	  By putting a physical lock on the storage device","
+ 	  By keeping devices shutdown when not in use","
+ 	  By keeping devices when used",  a,CN
+  Effective Storage management includes,"
+ 	  Securities","
+ 	  Backups","
+ 	  Reporting","
+ 	  All of the mentioned",  d,CN
+  Identify the tasks involved in Storage Capacity management,"
+ 	  Identifying storage systems are approaching full capacity","
+ 	  Monitoring trends for each resource","
+ 	  Tracking Total capacity, total used, total available","
+ 	  All of the mentioned",  d,CN
+  Effect of open standards like SMI(s),"
+ 	  Standardization drives software interoperability and interchange ability","
+ 	  Breaks the old-style dependence on proprietary methods, trade secrets, and single   providers","
+ 	  Builds a strong foundation on which others can quickly build and innovate","
+ 	  All of the mentioned",  d,CN
+  Task of Distributed Management Task Force is to,"
+ 	  To promote interoperability among the management solution providers","
+ 	b  Acts as an interface between the various budding technologies and provide solution to manage various environments","
+ 	  Only To promote interoperability among the management solution providers","
+ 	  Both To promote interoperability among the management solution providers and Acts as an interface between the various budding technologies and provide solution to manage various environments",  d,CN
+  SMI-S Standard uses,"
+ 	  Java RMI","
+ 	  CIM-XML/HTTP","
+ 	  CORBA","
+ 	  .NET",  b,CN
+   An application-level protocol in which a few manager stations control a set of agents is called,"
+ 	HTML","
+ 	TCP","
+ 	SNMP","
+ 	SNMP/IP",  c,CN
+  Full duplex mode increases capacity of each domain from,"
+ 	10 to 20 mbps","
+ 	20 to 30 mbps","
+ 	30 to 40 mbps","
+ 	40 to 50 mbps",  a,CN
+  Configuration management can be divided into two subsystems those are,"
+ 	Reconfiguration and documentation","
+ 	Management and configuration","
+ 	Documentation and dialing up","
+ 	Both Reconfiguration and documentation and Management and configuration",  a,CN
+"  To use Simple Network Management System (SNMP), we need","
+ 	Servers","
+ 	IP","
+ 	Protocols","
+ 	Rules",  d,CN
+  Main difference between SNMPv3 and SNMPv2 is the,"
+ 	Management","
+ 	Integration","
+ 	Classification","
+ 	Enhanced security",  d,CN
+"  In Network Management System, a term that responsible for controlling access to network based on predefined policy is called","
+ 	Fault Management","
+ 	Secured Management","
+ 	Active Management","
+ 	Security Management",  d,CN
+   BER stands for,"
+ 	Basic Encoding Rules","
+ 	Basic Encoding Resolver","
+ 	Basic Encoding Rotator","
+ 	Basic Encoding Router",  a,CN
+  Control of users’ access to network resources through charges are main responsibilities of,"
+ 	Reactive Fault Management","
+ 	Reconfigured Fault Management","
+ 	Accounting Management","
+ 	Security Management",  c,CN
+  SNMP is a framework for managing devices in an internet using the,"
+ 	TCP/IP protocol","
+ 	UDP","
+ 	SMTP","
+ 	None",  a,CN
+"  Structure of Management Information (SMI), is guideline of","
+ 	HTTP","
+ 	SNMP","
+ 	URL","
+ 	MIB",  b,CN
+  The protocol used by Telnet application is,"
+  Telnet","
+  FTP","
+  HTTP","
+  None of the mentioned",   a,CN
+  In “character at a time” mode,"
+  Character processing is done on the local system under the control of the remote system","
+  Most text typed is immediately sent to the remote host for processing","
+  All text is echoed locally, only completed lines are sent to the remote host","
+  None of the mentioned",   b,CN
+  _______ allows you to connect and login to a remote computer,"
+  Telnet","
+  FTP","
+  HTTP","
+  None of the mentioned",   a,CN
+  The correct syntax to be written in the web browser to Telnet to www.sanfoundry.com is,"
+  telnet//www.sanfoundry.com","
+  telnet:www.sanfoundry.com","
+  telnet://www.sanfoundry.com","
+  telnet www.sanfoundry.com",   c,CN
+  Telnet is a,"
+  Television on net","
+  Network of Telephones","
+  Remote Login","
+  Teleshopping site",   c,CN
+  Which one of the following is not correct?,"
+  telnet is a general purpose client-server program","
+  telnet lets user access an application on a remote computer","
+  telnet can also be used for file transfer","
+  none of the mentioned",   c,CN
+  Which operating mode of telnet is full duplex?,"
+  default mode","
+  server mode","
+  line mode","
+  none of the mentioned",   c,CN
+  If we want that a character be interpreted by the client instead of server,"
+  escape character has to be used","
+  control functions has to be disabled","
+  it is not possible","
+  none of the mentioned",   a,CN
+  Telnet protocol is used to establish a connection to,"
+  TCP port number 21","
+  TCP port number 22","
+  TCP port number 23","
+  TCP port number 24",   c,CN
+  Which one of the following is not true?,"
+  telnet defines a network virtual terminal (NVT) standard","
+  client programs interact with NVT","
+  server translates NVT operations","
+  none of the mentioned",   d,CN
+  All telnet operations are sent as,"
+  4 bytes","
+  8 bytes","
+  16 bytes","
+  32 bytes",   b,CN
+  AbsoluteTelnet is a telnet client for,"
+  windows","
+  linux","
+  mac","
+  none of the mentioned",   a,CN
+  The decimal code of interpret as command (IA  character is,"
+  252","
+  253","
+  254","
+  255",   d,CN
+  In character mode operation of telnet implementation,"
+  each character typed is sent by the client to the server","
+  each character typed is discarded by the server","
+  each character typed is aggregated into a word and then send to the server","
+  none of the mentioned",   a,CN
+"  In telnet, the client echoes the character on the screen but does not send it until a whole line is completed in","
+  default mode","
+  character mode","
+  server mode","
+  none of the mentioned",   a,CN
+  Which one of the following is not correct?,"
+  telnet is a general purpose client-server program","
+  telnet lets user access an application on a remote computer","
+  telnet can also be used for file transfer","
+  none of the mentioned",   c,CN
+  Which of the following is true with respect to TCP,"
+  Connection-oriented","
+  Process-to-process","
+  Transport layer protocol","
+  All of the mentioned",  d,CN
+"  In TCP, sending and receiving data is done as","
+  Stream of bytes","
+  Sequence of characters","
+  Lines of data","
+  Packets",  a,CN
+  TCP process may not write and read data at the same speed. So we need __________ for storage.,"
+  Packets","
+  Buffers","
+  Segments","
+  Stacks",  b,CN
+  TCP groups a number of bytes together into a packet called,"
+  Packet","
+  Buffer","
+  Segment","
+  Stack",  c,CN
+  Communication offered by TCP is,"
+  Full-duplex","
+  Half-duplex","
+  Semi-duplex","
+  Byte by byte",  a,CN
+"  To achieve reliable transport in TCP, ___________ is used to check the safe and sound arrival of data.","
+  Packet","
+  Buffer","
+  Segment","
+  Acknowledgment",  d,CN
+"  In segment header, sequence number and acknowledgement number field refers to","
+  Byte number","
+  Buffer number","
+  Segment number","
+  Acknowledgment",  a,CN
+  Suppose a TCP connection is transferring a file of 1000 bytes. The first byte is numbered 1000  What is the sequence number of the segment if all data is sent in only one segment.,"
+  10000","
+  10001","
+  12001","
+  11001",  b,CN
+  Bytes of data being transferred in each connection are numbered by TCP. These  numbers starts with a,"
+  Random number","
+  Zero","
+  One","
+  Sequence of zero’s and one’s",  d,CN
+  The value of acknowledgement field in a segment defines,"
+  Number of previous bytes to receive","
+  Total number of bytes to receive","
+  Number of next bytes to receive","
+  Sequence of zero’s and one’s",  c,CN
+  The receiver of the data controls the amount of data that are to be sent by the sender is referred as ___________,"
+  Flow control","
+  Error control","
+  Congestion control","
+  Error detection",  a,CN
+  Size of TCP segment header ranges between ___________,"
+  16 and 32 bytes","
+  16 and 32 bits","
+  20 and 60 bytes","
+  20 and 60 bits",  c,CN
+  Connection establishment in TCP is done by which mechanism?,"
+  Flow control","
+  Three-Way Handshaking","
+  Forwarding","
+  Synchronisation",  b,CN
+  The server program tells its TCP that it is ready to accept a connection. This process is called ___________,"
+  Active open","
+  Active close","
+  Passive close","
+  Passive open",  d,CN
+"   The process of, A client that wishes to connect to an open server tells  its TCP that it needs to be connected to that particular server is ___________","
+  Active open","
+  Active close","
+  Passive close","
+  Passive open",  a,CN
+"  In Three-Way Handshaking process, the situation where both the TCP’s issue an active open is ___________","
+  Mutual open","
+  Mutual Close","
+  Simultaneous open","
+  Simultaneous close",  c,CN
+"  The situation when a malicious attacker sends a large number of SYNC segments to a server, pretending that each of them is coming from a different client by faking the source IP address in the datagrams.","
+  SYNC flooding attack","
+  Active attack","
+  Passive attack","
+  Denial-of-service attack",  a,CN
+  SYNC flooding attack belongs to a type of security attack known as ___________,"
+  SYNC flooding attack","
+  Active attack","
+  Passive attack","
+  Denial-of-service attack",  d,CN
+  Size of source and destination port address of TCP header respectively are ___________,"
+  16-bits and 32-bits","
+  16-bits and 16-bits","
+  32-bits and 16-bits","
+  32-bits and 32-bits",  b,CN
+  What allows TCP to detect lost segments and in turn recover from that loss?,"
+  Sequence number","
+  Acknowledgment number","
+  Checksum","
+  Both Sequence & Acknowledgment number",  b,CN
+  Which of the following is false with respect to UDP,"
+  Connection-oriented","
+  Unreliable","
+  Transport layer protocol","
+  All of the mentioned",  a,CN
+  Return value of the UDP port “Chargen” is,"
+  String of characters","
+  String of integers","
+  Array of characters with integers","
+  Array of zero’s and one’s",  a,CN
+"  Beyond IP, UDP provides additional services such as","
+  Routing and switching","
+  Sending and receiving of packets","
+  Multiplexing and demultiplexing","
+  Demultiplexing and error checking",  d,CN
+  The main advantage of UDP is,"
+  More overload","
+  Reliable","
+  Less overload","
+  Fast",  c,CN
+  Port number used by Network Time Protocol(NTP) with UDP is,"
+  161","
+  123","
+  162","
+  124",  b,CN
+  what is the header size of UDP packet?,"
+  8 bytes","
+  8 bits","
+  16 bytes","
+  124 bytes",  a,CN
+"  The port number is “ephemeral port number”, if the source host is ……","
+  NTP","
+  Echo","
+  Server","
+  Client",  d,CN
+  “Total length” field in UDP packet header is the length of,"
+  Only UDP header","
+  Only data","
+  Only checksum","
+  UDP header plus data",  d,CN
+  Correct expression for UDP user datagram length is,"
+  UDP length = IP length – IP header’s length","
+  UDP length = UDP length – UDP header’s length","
+  UDP length = IP length + IP header’s length","
+  UDP length = UDP length + UDP header’s length",  a,CN
+  The field used to detect errors over the entire user datagram is,"
+  UDP header","
+  Checksum","
+  Source port","
+  Destination port",  b,CN
+  Which mode of IPsec should you use to assure security and confidentiality of data within the same LAN?,"
+  AH transport mode","
+  ESP transport mode","
+  ESP tunnel mode","
+  AH tunnel mode",  b,CN
+  Which two types of encryption protocols can be used to secure the authentication of computers using IPsec?,"
+  Kerberos V5","
+  SHA","
+  MD5","
+  Both SHA and MD5",  d,CN
+  Which two types of IPsec can be used to secure communications between two LANs?,"
+  AH tunnel mode","
+  ESP tunnel mode","
+  Both AH tunnel mode and ESP tunnel mode","
+  ESP transport mode",  c,CN
+  ______ provides authentication at the IP level.,"
+  AH","
+  ESP","
+  PGP","
+  SSL",  a,CN
+  IPsec defines two protocols: _______ and ________,"
+  AH; SSL","
+  PGP; ESP","
+  AH; ESP","
+  All of the mentioned",  c,CN
+  IP Security operates in which layer of the OSI model?,"
+  Network","
+  Transport","
+  Application","
+  Physical",  a,CN
+  ESP provides,"
+  source authentication","
+  data integrity","
+  privacy","
+  all of the mentioned",  d,CN
+  In computer security… means that computer system assets can be modified only by authorized parities.,"
+  Confidentiality","
+  Integrity","
+  Availability","
+  Authenticity",  b,CN
+  In computer security… means that the information in a computer system only be accessible for reading by authorized parities.,"
+  Confidentiality","
+  Integrity","
+  Availability","
+  Authenticity",  a,CN
+  Which of the following organizations is primarily concerned with military encryption systems?,"
+  NSA","
+  NIST","
+  IEEE","
+  ITU",  a,CN
+  Two broad categories of congestion control are,"
+  Open-loop and Closed-loop","
+  Open-control and Closed-control","
+  Active  control and Passive control","
+  None of the mentioned",  a,CN
+"  In open-loop control, policies are applied to __________","
+  Remove after congestion occurs","
+  Remove after sometime","
+  Prevent before congestion occurs","
+  Prevent before sending packets",  c,CN
+  Retransmission of packets must be done when,"
+  Packet is lost","
+  Packet is corrupted","
+  Packet is needed","
+  All of the mentioned",  d,CN
+"  In Go-Back-N window, when the timer of the packet times out, several packets have to be resent even some may have arrived safe. whereas in Selective Repeat window, tries to send ___________","
+  Packet that have not lost","
+  Packet that have lost or corrupted","
+  Packet from starting","
+  All the packets",  b,CN
+  Discarding policy is mainly done by,"
+  Sender","
+  Receiver","
+  Router","
+  Switch",  c,CN
+  Closed-Loop control mechanism try to,"
+  Remove after congestion occurs","
+  Remove after sometime","
+  Prevent before congestion occurs","
+  Prevent before sending packets",  a,CN
+  The technique in which a congested node stops receiving data from the immediate upstream node or nodes is called as,"
+  Admission policy","
+  Backpressure","
+  Forward signalling","
+  Backward signalling",  b,CN
+  Backpressure technique can be applied only to,"
+  Congestion networks","
+  Closed circuit networks","
+  Open circuit networks","
+  Virtual circuit networks",  d,CN
+  The packet sent by a node to the source to inform it of congestion is called,"
+  Explicit","
+  Discard","
+  Choke","
+  Backpressure",  c,CN
+"  In the slow-start algorithm, the size of the congestion window increases __________ until it reaches a threshold.","
+  Exponentially","
+  Additively","
+  Multiplicatively","
+  None of the mentioned",  a,CN
+"1   In the congestion avoidance algorithm, the size of the congestion window increases ____________ until congestion is detected.","
+  Exponentially","
+  Additively","
+  Multiplicatively","
+  None of the mentioned",  b,CN
+  Which of the following is not a characteristic of Virtual Circuit Network?,"
+  There are setup and teardown phases in addition to the data transfer phase","
+  Resources can be allocated during setup phase or on demand","
+  All packets follow the same path established during the connection","
+  Virtual circuit network is implemented in application layer",  d,CN
+  The address that is unique in the scope of the network or internationally if the network is part of an international network is called as,"
+  Global address","
+  Network address","
+  Physical address","
+  IP address",  a,CN
+  The Identifier that is used for data transfer in virtual circuit network is,"
+  Global address","
+  Virtual circuit identifier","
+  Network identifier","
+  IP identifier",  b,CN
+  Which of the following is not a phase of virtual circuit network?,"
+  Setup phase","
+  Datatransfer phase","
+  Termination phase","
+  Teardown phase",  c,CN
+  Steps required in setup process are,"
+  Setup request and acknowledgement","
+  Setup request and setup response","
+  Setup request and setup termination","
+  Setup and termination steps",  a,CN
+"  During teardown phase, source after sending all the frames to destination sends……..to notify termination","
+  Teardown response","
+  Teardown request","
+  Termination request","
+  Termination response",  b,CN
+"  Delay if, resource allocated during setup phase during data transfer is","
+  Constant","
+  Increases for each packet","
+  Same for each packet","
+  Different for each packet",  c,CN
+"  Delay if, resource allocated on demand during data transfer is","
+  Constant","
+  Increases for each packet","
+  Same for each packet","
+  Different for each packet",  d,CN
+"  In virtual circuit network, delay times for setup and teardown respectively are","
+  1 and 1","
+  1 and 2","
+  2 and 1","
+  2 and 2",  a,CN
+"  In data transfer phase, the table contains how many columns?","
+  1","
+  2","
+  3","
+  4",  d,CN
+  ATM and frame relay are,"
+  virtual circuit networks","
+  datagram networks","
+  virtual private networks","
+  none of the mentioned",   a,CN
+  ATM uses the,"
+  asynchronous frequency division multiplexing","
+  asynchronous time division multiplexing","
+  asynchronous space division multiplexing","
+  none of the mentioned",   b,CN
+  ATM standard defines _______ layers.,"
+  2","
+  3","
+  4","
+  5",   b,CN
+  ATM can be used for,"
+  local area network","
+  wide area network","
+  any of local or wide area network","
+  none of the mentioned",   c,CN
+  An ATM cell has the payload field of,"
+  32 bytes","
+  48 bytes","
+  64 bytes","
+  128 bytes",   b,CN
+  Frame relay has error detection at the,"
+  physical layer","
+  data link layer","
+  network layer","
+  transport layer",   b,CN
+  Virtual circuit identifier in frame relay is called,"
+  data link connection identifier","
+  frame relay identifier","
+  cell relay identifier","
+  none of the mentioned",   a,CN
+  Frame relay has,"
+  only physical layer","
+  only data link layer","
+  only network layer","
+  both physical and data link layer",   d,CN
+"  In frame relay networks, extended address is used","
+  to increase the range of data link connection identifiers","
+  for error detection","
+  for encryption","
+  for error recovery",   a,CN
+  What is FRAD in frame relay network?,"
+  FRAD assembles and disassembles the frames coming from other protocols","
+  FRAD is used for modulation and demodulation","
+  FRAD is used for error detection","
+  None of the mentioned",   a,CN
+  Frame Relay is very cheap than other,"
+  LANs","
+  WANs","
+  MANs","
+  Multipoint Networks",  b,CN
+  Frame Relay networks offer an option called,"
+  Voice Over For Relay","
+  Voice Over Fine Relay","
+  Voice On Frame Relay","
+  Voice Over Frame Relay",  d,CN
+  There are ________ total features of Frame Relay.,"
+  Five","
+  Seven","
+  Nine","
+  Ten",  c,CN
+"  Frame Relay does not provide flow or error control, they must be provided by the","
+  Lower Level Protocol","
+  High Level Protocol","
+  Upper Level Protocol","
+  Downward Level Protocol",  c,CN
+  Frame Relay deploys physical layer carriers such as,"
+  ADMs","
+  UPSR","
+  BLSR","
+  SONET",  d,CN
+  Frame relay has error detection at the,"
+  physical layer","
+  data link layer","
+  network layer","
+  transport layer",  b,CN
+  Virtual circuit identifier in frame relay is called,"
+  data link connection identifier","
+  frame relay identifier","
+  cell relay identifier","
+  none of the mentioned",  a,CN
+  Frame relay has only,"
+  physical layer","
+  data link layer","
+  both physical layer and data link layer","
+  none of the mentioned",  c,CN
+"  In frame relay networks, extended address is used","
+  to increase the range of data link connection identifiers","
+  for error detection","
+  both to increase the range of data link connection identifiers and for error detection","
+  none of the mentioned",  a,CN
+  What is FRAD in frame relay network?,"
+  FRAD assembles and disassembles the frames coming from other protocols","
+  FRAD is used for modulation and demodulation","
+  FRAD is used for error detection","
+  None of the mentioned",  a,CN
+  A piece of icon or image on a web page associated with another webpage is called,"
+  url","
+  hyperlink","
+  plugin","
+  none of the mentioned",   b,CN
+  Dynamic web page,"
+  is same every time whenever it displays","
+  generates on demand by a program or a request from browser","
+  both is same every time whenever it displays and generates on demand by a program or a request from browser","
+  none of the mentioned",   b,CN
+  What is a web browser?,"
+  a program that can display a web page","
+  a program used to view html documents","
+  it enables user to access the resources of internet","
+  all of the mentioned",   d,CN
+  Common gateway interface is used to,"
+  generate executable files from web content by web server","
+  generate web pages","
+  stream videos","
+  none of the mentioned",   a,CN
+  URL stands for,"
+  unique reference label","
+  uniform reference label","
+  uniform resource locator","
+  unique resource locator",   c,CN
+  A web cookie is a small piece of data,"
+  sent from a website and stored in user’s web browser while a user is browsing a website","
+  sent from user and stored in the server while a user is browsing a website","
+  sent from root server to all servers","
+  none of the mentioned",   a,CN
+  Which one of the following is not used to generate dynamic web pages?,"
+  PHP","
+  ASP.NET","
+  JSP","
+  None of the mentioned",   d,CN
+  An alternative of javascript on windows platform is,"
+  VBScript","
+  ASP.NET","
+  JSP","
+  None of the mentioned",   a,CN
+  What is document object model (DOM)?,"
+  convention for representing and interacting with objects in html documents","
+  application programming interface","
+  hierarchy of objects in ASP.NET","
+  none of the mentioned",   a,CN
+  AJAX stands for,"
+  asynchronous javascript and xml","
+  advanced JSP and xml","
+  asynchronous JSP and xml","
+  advanced javascript and xml",   a,CN
+  Which of the following is not applicable for IP?,"
+  Error reporting","
+  Handle addressing conventions","
+  Datagram format","
+  Packet handling conventions",   a,CN
+  Which of the following field in IPv4 datagram is not related to fragmentation?,"
+  Flags","
+  Offset","
+  TOS","
+  Identifier",   c,CN
+  The TTL field has value   How many routers (max) can process this datagram?,"
+  11","
+  5","
+  10","
+  1",   c,CN
+"  If the value in protocol field is 17, the transport layer protocol used is _____________","
+  TCP","
+  UDP","
+  Either of the mentioned","
+  None of the mentioned",   b,CN
+  The data field can carry which of the following?,"
+  TCP segemnt","
+  UDP segment","
+  ICMP messages","
+  None of the mentioned",   c,CN
+  What should be the flag value to indicate the last fragment?,"
+  0","
+  1","
+  TTl value","
+  None of the mentioned",   a,CN
+  Which of these is not applicable for IP protocol?,"
+  is connectionless","
+  offer reliable service","
+  offer unreliable service","
+  none of the mentioned",   b,CN
+  Fragmentation has following demerits,"
+  complicates routers","
+  open to DOS attack","
+  overlapping of fragments.","
+  all of the mentioned",   d,CN
+  Which field helps to check rearrangement of the fragments?,"
+  offset","
+  flag","
+  ttl","
+  identifer",   a,CN
+  Which of these is not applicable for IP protocol?,"
+  Connectionless","
+  Offer reliable service","
+  Offer unreliable service","
+  None of the mentioned",  b,CN
+  Fragmentation has following demerits,"
+  Complicates routers","
+  Open to DOS attack","
+  Overlapping of fragments","
+  All of the mentioned",  d,CN
+  Which field helps to check rearrangement of the fragments?,"
+  Offset","
+  Flag","
+  TTL","
+  Identifier",  a,CN
+"  In classless addressing, there are no classes but addresses are still granted in","
+  IPs","
+  Blocks","
+  Codes","
+  Sizes",  b,CN
+"  In IPv4 Addresses, classful addressing is replaced with","
+  Classless Addressing","
+  Classful Addressing","
+  Classful Advertising","
+  Classless Advertising",  a,CN
+  First address in a block is used as network address that represents the,"
+  Class Network","
+  Entity","
+  Organization","
+  Codes",  c,CN
+"  In classful addressing, a large part of available addresses are","
+  Organized","
+  Blocked","
+  Wasted","
+  Communicated",  c,CN
+  Network addresses are very important concepts of,"
+  Routing","
+  Mask","
+  IP Addressing","
+  Classless Addressing",  c,CN
+  Which of this is not a class of IP address?,"
+  ClassE","
+  ClassC","
+  ClassD","
+  ClassF",  d,CN
+  The size of IP address in IPv6 is,"
+  4bytes","
+  128bits","
+  8bytes","
+  100bits",   b,CN
+  The header length of an IPv6 datagram is ___________,"
+  10bytes","
+  25bytes","
+  30bytes","
+  40bytes",   d,CN
+"  In the IPv6 header,the traffic class field is similar to which field in the IPv4 header?","
+  Fragmentation field","
+  Fast-switching","
+  ToS field","
+  Option field",   c,CN
+  IPv6 doesnot use _________ type of address,"
+  Broadcast","
+  Multicast","
+  Anycast","
+  None of the mentioned",   a,CN
+  These are the features present in IPv4 but not in IPv ,"
+  Fragmentation","
+  Header checksum","
+  Options","
+  All of the mentioned",   d,CN
+  The _________ field determines the lifetime of IPv6 datagram,"
+  Hop limit","
+  TTL","
+  Next header","
+  None of the mentioned",   a,CN
+  Dual-stack approach refers to,"
+  Implementing Ipv4 with 2 stacks","
+  Implementing Ipv6 with 2 stacks","
+  Node has both IPv4 and IPv6 support","
+  None of the mentioned",   c,CN
+  Suppose two IPv6 nodes want to interoperate using IPv6 datagrams but are connected to each other by intervening IPv4 routers. The best solution here is,"
+  Use dual-stack approach","
+  Tunneling","
+  No solution","
+  Replace the system",   b,CN
+  Teredo is an automatic tunneling technique. In each client the obfuscated IPv4 address is represented by bits,"
+  96 to 127","
+  0 to 63","
+  80 to 95","
+  64 to 79",   a,CN
+  Dual-stack approach refers to,"
+  Implementing Ipv4 with 2 stacks","
+  Implementing Ipv6 with 2 stacks","
+  Node has both IPv4 and IPv6 support","
+  None of the mentioned",  c,CN
+  Suppose two IPv6 nodes want to interoperate using IPv6 datagrams but are connected to each other by intervening IPv4 routers. The best solution here is,"
+  Use dual-stack approach","
+  Tunneling","
+  No solution","
+  Replace the system",  b,CN
+  Teredo is an automatic tunneling technique. In each client the obfuscated IPv4 address is represented by bits,"
+  96 to 127","
+  0 to 63","
+  80 to 95","
+  64 to 79",  a,CN
+  A link local address of local addresses is used in an,"
+  Isolated router","
+  Isolated mask","
+  Isolated subnet","
+  Isolated net",  c,CN
+"  In subcategories of reserved address in IPv6, address that is used by a host to test itself without going into network is called","
+  Unspecified address","
+  Loopback address","
+  Compatible address","
+  Mapped address",  b,CN
+  A few leftmost bits in each address of IPv6 address define its category is called,"
+  Prefix type","
+  Postfix type","
+  Reserved type","
+  Local type",  a,CN
+"  In IPv6 addresses, addresses start with eight 0s are called","
+  Unicast addresses","
+  Multicast addresses","
+  Any cast addresses","
+  Reserved addresses",  d,CN
+  Which statement(s) about IPv6 addresses are true?,"
+  Leading zeros are required","
+  Two colons (::) are used to represent successive hexadecimal fields of zeros","
+  Two colons (::) are used to separate fields","
+  A single interface cannot have multiple IPv6 addresses of different types",  b,CN
+  When IPV6 launched,"
+  June 2, 2012","
+  June 4, 2012","
+  June 5, 2012","
+  June 6, 2012",  d,CN
+  Which layer is responsible for process-to-process delivery?,"
+  Physical layer","
+  Network layer","
+  Transport layer","
+  Application layer",  c,CN
+"  In process-to-process delivery, two processes communicate in which of the following methods?","
+  Client/Server","
+  Source/Destination","
+  Message Transfer","
+  None of the mentioned",  a,CN
+  Multiple processes on destinations at transport layer are identified by:,"
+  Mac address","
+  Port number","
+  Host number","
+  Host address",  b,CN
+  Range of port numbers in Internet model is,"
+  0 and 32,765(8-bit)","
+  0 and 32,765(16-bit)","
+  0 and 65,535(32-bit)","
+  0 and 65,535(16-bit)",  d,CN
+"  According to Internet Assigned Numbers Authority(IAN , which of the following range is not a part of port number?","
+  Well-known ports","
+  Registered ports","
+  Dynamic ports","
+  Static ports",  d,CN
+  The combination of an IP address and port number is called as?,"
+  Socket address","
+  Port address","
+  MAC address","
+  Host address",  a,CN
+  Which of the following is false with respect to Connectionless service of transport layer protocol?,"
+  Packets are not numbered","
+  Packets are not delayed","
+  No acknowledgement","
+  Packet may arrive out of sequence",  b,CN
+  Correct order in the process of Connection-Oriented services is,"
+	  Data transfer","
+	  Connection release","
+	  Connection establishment","
+  1-2-3",  d,CN
+"
+  2-1-3","
+  3-1-2","
+","  In transport layer, Multiplexing is done at","
+  Channel",  c,CN
+"
+  Sender site","
+  Packet","
+","  The process of error checking and dropping of the header, delivering messages to appropriate process based on port number is called as","
+  Delivery of packets",  d,CN
+  Internet Control Message Protocol(ICMP) has designed to compensate,"
+  Error-reporting","
+  Error-correction","
+  Host and management queries","
+  All of the mentioned",  d,CN
+  Header size of the ICMP message is,"
+  8-bytes","
+  8-bits","
+  16-bytes","
+  16-bits",  a,CN
+"  During error reporting, ICMP always reports error messages to","
+  Destination","
+  Source","
+  Next router","
+  Previous router",  b,CN
+  Which of these is not a type of error-reporting messages,"
+  Destination unreachable","
+  Source quench","
+  Router error","
+  Time exceeded",  c,CN
+  ICMP error message will not be generated for a datagram having a special address such as,"
+  12 0.0.0","
+  1  2","
+  1 1","
+  127",  a,CN
+"  When a router cannot route a datagram or host cannot deliver a datagram, the datagram is discarded and the router or the host sends a ____________ message back to the source host that initiated the datagram.","
+  Destination unreachable","
+  Source quench","
+  Router error","
+  Time exceeded",  a,CN
+  The source-quench message in ICMP was designed to add a kind of ____________ to the IP.,"
+  Error control","
+  Flow control","
+  Router control","
+  None of the mentioned",  b,CN
+"  In case of time exceeded error, when the datagram visits a router, the value of time to live field is","
+  Remains constant","
+  Decremented by 2","
+  Incremented by 1","
+  Decremented by 1",  d,CN
+  Two machines can use the timestamp request and timestamp replay messages to determine the ___________ needed for an IP datagram to travel between them.,"
+  Half-trip time","
+  Round-trip time","
+  Travel time for the next router","
+  Time to reach the destination/source",  b,CN
+"  During debugging, we can use the ____________ program to find if a host is alive and responding","
+  Traceroute","
+  Shell","
+  Ping","
+  Java",  c,CN
+"1  In windows, ____________ can be used to trace the route of the packet from the source to the destination","
+  Traceroute","
+  Tracert","
+  Ping","
+  Locater",  b,CN
+"1  In a simple echo-request message, the value of the sum is 01010000 01011100. Then, value of checksum is","
+  10101111 10100011","
+  01010000 01011100","
+  10101111 01011100","
+  01010000 10100011",  a,CN
+  The main reason for transition from IPv4 to IPv6 is,"
+  Huge number of systems on the internet","
+  Very low number of system on the internet","
+  Providing standard address","
+  None of the mentioned",  a,CN
+  Which of the following is not a transition strategies?,"
+  Dual stack","
+  Tunnelling","
+  Conversion","
+  Header translation",  c,CN
+"  To determine which version to use when sending a packet to a destination, the source host queries which of the following?","
+  Dual stack","
+  Domain Name Server","
+  Header information","
+  All of the mentioned",  b,CN
+  The strategy used when two computers using IPv6 want to communicate with each other and the packet must pass through a region that uses IPv4 is,"
+  Dual stack","
+  Header translation","
+  Conversion","
+  Tunnelling",  d,CN
+  The correct format of packet in tunnel that uses IPv4 region is,"
+	  IPv6 header","
+	  Payload","
+	  IPv4 header","
+  3-1-2",  a,CN
+"
+  1-2-3","
+  1-3-2","
+","  ___________ is necessary when the sender wants to use IPv6, but the receiver does not understand IPv ","
+  Dual stack",  b,CN
+"
+  Conversion","
+  Tunnelling","
+",  Header translation uses ___________ to translate an IPv6 address to an IPv4 address.,"
+  IP address",  c,CN
+"
+  Mapped address","
+  Any of the mentioned","
+",  Which of the following is not the step in Header translation procedure?,"
+  The IPv6 mapped address is changed to an IPv4 address by extracting the rightmost 32bits",  d,CN
+  Which of the following is not applicable for IP?,"
+  Error reporting","
+  Handle addressing conventions","
+  Datagram format","
+  Packet handling",  a,CN
+  Which of the following field in IPv4 datagram is not related to fragmentation?,"
+  Flags","
+  Offset","
+  TOS","
+  Identifier",  c,CN
+  The TTL field has value   How many routers (max) can process this datagram?,"
+  11","
+  5","
+  10","
+  1",  c,CN
+"  If the value in protocol field is 17, the transport layer protocol used is _________","
+  TCP","
+  UDP","
+  Either TCP and UDP","
+  None of the mentioned",  b,CN
+  Which field helps to check rearrangement of the fragments?,"
+  offset","
+  flag","
+  ttl","
+  identifier",  a,CN
+  The size of IP address in IPv6 is,"
+  4bytes","
+  128bits","
+  8bytes","
+  100bits",  b,CN
+  The header length of an IPv6 datagram is ___________,"
+  10bytes","
+  25bytes","
+  30bytes","
+  40bytes",  d,CN
+"  In the IPv6 header, the traffic class field is similar to which field in the IPv4 header?","
+  Fragmentation field","
+  Fast switching","
+  TOS field","
+  Option field",  c,CN
+  IPv6 does not use ________ type of address,"
+  Broadcast","
+  Multicast","
+  Any cast","
+  None of the mentioned",  a,CN
+  Which are the features present in IPv4 but not in IPv6?,"
+  Fragmentation","
+  Header checksum","
+  Options","
+  All of the mentioned",  d,CN
+  Which of the following is the broadcast address for a Class B network ID using the default subnetmask?,"
+  17 1  255","
+  25 25 25 255","
+  17 1 25 255","
+  17 25 25 255",  c,CN
+"  You have an IP address of 17 1 1 5 with a 25 25 25 128 subnet mask. What is your class of address, subnet address, and broadcast address?","
+  Class A, Subnet 17 1 1 0, Broadcast address 17 1 1 127","
+  Class B, Subnet 17 1 1 0, Broadcast address 17 1 1 127","
+  Class B, Subnet 17 1 1 0, Broadcast address 17 1 1 255","
+  Class B, Subnet 17 1 0.0, Broadcast address 17 1 25 255",  b,CN
+"  If you wanted to have 12 subnets with a Class C network ID, which subnet mask would you use?","
+  25 25 25 252","
+  25 25 25 255","
+  25 25 25 240","
+  25 25 25 248",  c,CN
+  The combination of _________ and __________ is often termed the local address of the local portion of the IP address.,"
+  Network number and host number","
+  Network number and subnet number","
+  Subnet number and host number","
+  Host number",  c,CN
+  _________ implies that all subnets obtained from the same subnet mask.,"
+  Static subnetting","
+  Dynamic subnetting","
+  Variable length subnetting","
+  Both Dynamic subnetting and Variable length subnetting",  a,CN
+  State whether true or false.,"
+i) A connection oriented protocol can only use unicast addresses.","
+ii) The any cast service is included in IPV ","
+  True, True","
+  True, False",  a,CN
+"
+  False, False","
+",  __________ is a high performance fiber optic token ring LAN running at 100 Mbps over distances upto 1000 stations connected.,"
+  FDDI","
+  FDDT",  a,CN
+"
+  FOTR","
+",  Which of the following are Gigabit Ethernets?,"
+  1000 BASE-SX","
+  1000 BASE-LX",  d,CN
+"
+  all of the above","
+",  _________ is a collective term for a number of Ethernet Standards that carry traffic at the nominal rate of 1000 Mbit/s against the original Ethernet speed of 10 Mbit/s.,"
+  Ethernet","
+  Fast Ethernet",  b,CN
+"
+  All of the mentioned","
+",  _________ is another kind of fiber optic network with an active star for switching.,"
+  S/NET","
+  SW/NET",  a,CN
+" A network administrator is connecting hosts A and B directly through their Ethernet interfaces, as shown in the illustration. Ping attempts between the hosts are unsuccessful. What can be done to provide connectivity between the hosts?","
+","
+  A crossover cable should be used in place of the straight-through cable.","
+  A rollover cable should be used in place of the straight-through cable.","
+  The subnet masks should be set to 25 25 25 19 ",  d,CN
+"
+  The subnet masks should be set to 25 25 25 0.","
+  1 only","
+  2 only","
+  3 and 4 only","
+  1 and 5 only",  c,CN
+  Your router has the following IP address on Ethernet0: 17 1  1/2  Which of the following can be valid host IDs on the LAN interface attached to the router?,"
+  17 1  100","
+  17 1  198","
+  17 1  255","
+  17 1  0",  b,CN
+"
+  2 and 3 only","
+  3 and 4 only","
+  None of the mentioned","
+",  Which two statements describe the IP address  1  65/23?,  d,CN
+"
+  The lowest host address in the subnet is  1  1 25 25 25 0.","
+  The last valid host address in the subnet is  1  254 25 25 25 0.","
+  The broadcast address of the subnet is  1  255 25 25 25 0.","
+  1 and 3","
+  2 and 4",  b,CN
+"
+  2, 3 and 4","
+",  What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 25 25 25 224 subnet mask?,"
+  14","
+  15",  d,CN
+"
+  30","
+","  You need to subnet a network that has 5 subnets, each with at least 16 hosts. Wohich classful subnet mask would you use","
+  25 25 25 192","
+  25 25 25 224",  a,CN
+"
+  25 25 25 248","
+",  You have a network that needs 29 subnets while maximizing the number of host addresses available on each subnet. How many bits must you borrow from the host field to provide the correct subnet mask?,"
+  2","
+  3",  a,CN
+"
+  5","
+","  If an Ethernet port on a router were assigned an IP address of 17 1 11 1/25, what would be the valid subnet address of this host?","
+  17 1 11 0","
+  17 1 0.0",  c,CN
+"
+  17 1 25 0","
+","  You have an interface on a router with the IP address of 19 16 19 10/2  Including the router interface, how many hosts can have IP addresses on the LAN attached to the router interface?","
+  6","
+  8",  b,CN
+  Which type of Ethernet framing is used for TCP/IP and DEC net?,"
+  Ethernet 80 3","
+  Ethernet 80 2","
+  Ethernet II","
+  Ethernet SNAP",  c,CN
+"  You are a system administrator on a NetWare network, you are runningNetWare  11 and you cannot communicate with your router. What is the likelyproblem?","
+  NetWare  11 defaults to 80 2 encapsulation","
+  NetWare  11 defaults to 80 3 encapsulation","
+  Cisco routers only work with NetWare  11","
+  NetWare  11 defaults to 80 2 encapsulation",  a,CN
+  NetWare IPX addressing uses a network number and a node number. Which statement is not true?,"
+  The network address is administratively assigned and can be up to 16 hexadecimal digits long","
+  The node address is always administratively assigned","
+  The node address is usually the MAC address","
+  If the MAC address is used as the node address, then IPX eliminates the use of ARP",  b,CN
+  Which NetWare protocol works on layer 3–network layer—of the OSI model?,"
+  IPX","
+  NCP","
+  SPX","
+  NetBIOS",  a,CN
+  Which NetWare protocol provides link-state routing?,"
+  NLSP","
+  RIP","
+  SAP","
+  NCP",  a,CN
+"  As a system administrator, you want to debug IGRP but are worried that the","
+“debug IP IGRP transaction” command will flood the console. What is the command","
+that you should use?","
+  Debug IP IGRP event","
+  Debug IP IGRP-events",  d,CN
+"
+  Debug IP IGRP events","
+",  What does the following series of commands accomplish? RouterIGRP 71 network,"
+ 0.0.0 router IGRP 109 network 17 6  0","
+  It isolates networks  0.0.0 and 17 6  0",  a,CN
+"
+  It disables RIP","
+  It disables all routing protocols","
+",  The “IPX delay number” command will allow an administrator to change the,"
+default settings. What are the default settings?",  a,CN
+"
+  For LAN interfaces, six ticks; for WAN interfaces, one tick","
+  For LAN interfaces, zero ticks; for WAN interfaces, five ticks","
+  For LAN interfaces, five ticks; for WAN interfaces, zero Ticks","
+","  As a system administrator, you need to set up one Ethernet interface on the Cisco",  d,CN
+"
+commands will accomplish this?","
+  Interface Ethernet 0.1 IPX encapsulation Novell-ether IPX network 9e interface","
+Ethernet 0.2 IPX network 6c","
+  Interface Ethernet 0 IPX encapsulation Novell-ether IPX network 9e interface","
+Ethernet 0 IPX encapsulation sap IPX network 6c",  a,CN
+"
+encapsulation sap","
+  Interface Ethernet 0.1ipx encapsulation Novell-ether IPX network 9e interface","
+Ethernet 0.2 IPX encapsulation sap IPX network 6c","
+",  What does the “IPX maximum-paths 2” command accomplish?,  b,CN
+"
+  It sets up routing to go to network 2","
+  It is the default for Cisco IPX load sharing","
+  It enables load sharing on 2 paths if the paths are unequal metric paths","
+",1  You want to enable both arpa and snap encapsulation on one router interface.,  a,CN
+"
+  The interface can handle multiple encapsulation types with no extra configuration","
+  Assign two network numbers, one for each encapsulation type","
+  Enable Novell-ether to run multiple encapsulation types","
+  Both arpa and snap are enabled by default so you don’t have to configure anything","
+",  a,CN
+"
+  False","
+  True","
+","1  To prevent Service Advertisements (SAPs) from flooding a network, Cisco routers","
+do not forward them. How are services advertised to other networks?",  a,CN
+"
+  Each router assigns a service number and broadcasts that","
+  SAPs aren’t necessary with Cisco routers","
+  Cisco routers filter out all SAPs","
+",1  Novell’s implementation of RIP updates routing tables every _________ seconds.,  a,CN
+  Which protocol should you select if the network diameter is more than 17 hops?,"
+  RIPv1","
+  RIPv2","
+  EIGRP","
+  Both RIPv1 and RIPv2",  a,CN
+  How often does a RIPv1 router broadcast its routing table by default?,"
+  Every 30 seconds","
+  Every 60 seconds","
+  Every 90 seconds","
+  RIPv1 does not broadcast periodically",  a,CN
+  Which command displays RIP routing updates?,"
+  Show IP route","
+  Debug IP rip","
+  Show protocols","
+  Debug IP route",  b,CN
+  Two connected routers are configured with RIP routing. What will be the result when a router receives a routing update that contains a higher-cost path to a network already in its routing table?,"
+  The updated information will be added to the existing routing table Debug IP rip","
+  The update will be ignored and no further action will occur Debug IP route","
+  The updated information will replace the existing routing table entry","
+  The existing routing table entry will be deleted from the routing table and all routers will exchange routing updates to reach convergence",  b,CN
+  You type debug IP rip on your router console and see that 17 1  0 is being advertised to you with a metric of 1  What does this mean?,"
+  The route is 16 hops away Debug IP rip","
+  The route has a delay of 16 microseconds Debug IP route","
+  The route is inaccessible","
+  The route is queued at 16 messages a second",  c,CN
+  Default administrative distance of Static Route,"
+  0","
+  90","
+  100","
+  1",  d,CN
+  Which protocol gives a full route table update every 30 seconds?,"
+  IEGRP","
+  RIP","
+  both IEGRP and RIP","
+  none of the mentioned",  b,CN
+  Default administrative distance of RIP,"
+  0","
+  90","
+  120","
+  130",  c,CN
+  Which statement is true regarding classless routing protocol?,"
+  The use of discontinuous networks is not allowed","
+  Use of variable length subnet masks is permitted","
+  RIPv1 is a classless routing protocol","
+  IGRP supports classes routing within the same autonomous system",  b,CN
+  Where we should use default routing,"
+  On stub networks- which have only one exit path out of the network","
+  Which have more than one exit path out of the network","
+  Minimum five exit paths out of the network","
+  None of the mentioned",  a,CN
+  Which statement is true regarding classless routing protocols?,"
+  The use of discontinuous networks is not allowed","
+  The use of variable length subnet masks is permitted","
+  RIPv1 is a classless routing protocol","
+  RIPv2 supports classless routing",  b,CN
+  What is route poisoning?,"
+  It sends back the protocol received from a router as a poison pill, which stops the regular updates. The use of variable length subnet masks is permitted","
+  It is information received from a router that can’t be sent back to the originating router.RIPv2 supports classless routing","
+  It prevents regular update messages from reinstating a route that has just come up","
+  It describes when a router sets the metric for a downed link to infinity",  d,CN
+  Which of the following is true regarding RIPv2?,"
+  It has a lower administrative distance than RIPv1","
+  It converges faster than RIPv1","
+  It has the same timers as RIPv1","
+  It is harder to configure than RIPv1",  c,CN
+  Which of the situations might not require require multiple routing protocols in a network?,"
+  When a new Layer 2-only switch is added to the network","
+  When you are migrating from one routing protocol to another","
+  When you are using routers from multiple vendors","
+  When there are host-based routers from multiple vendors",  a,CN
+  Which two routing protocols can be redistributed into OSPF by a Cisco router?,"
+  IP EIGRP and AppleTalk EIGRP","
+  AppleTalk EIGRP and RIPv2","
+  RIPv2 and IP EIGRP","
+  IPX RIP & AppleTalk EIGRP",  c,CN
+  Which is a reason for avoiding doing route redistribution on two routers between the same two routing domains?,"
+  Higher cost of two routers","
+  Routing feedback","
+  Cisco IOS incompatibility","
+  Not possible to use two routers",  b,CN
+  What does administrative distance rank?,"
+  Metrics","
+  Sources of routing information","
+  Router reliability","
+  Best paths",  b,CN
+  Which protocol maintains neighbor adjacencies?,"
+  RIPv2 and EIGRP","
+  IGRP and EIGRP","
+  RIPv2","
+  EIGRP",  c,CN
+  Which routing protocol implements the diffusing update algorithm?,"
+  IS-IS","
+  IGRP","
+  EIGRP","
+  OSPF",  c,CN
+  Which protocol should you select if the network diameter is more than 17 hops?,"
+  RIPv1","
+  RIPv2","
+  EIGRP","
+  All of the above",  b,CN
+"  In cryptography, what is cipher?","
+  algorithm for performing encryption and decryption","
+  encrypted message","
+  both algorithm for performing encryption and decryption and encrypted message","
+  none of the mentioned",   a,CN
+"  In asymmetric key cryptography, the private key is kept by","
+  sender","
+  receiver","
+  sender and receiver","
+  all the connected devices to the network",   b,CN
+  Which one of the following algorithm is not used in asymmetric-key cryptography?,"
+  rsa algorithm","
+  diffie-hellman algorithm","
+  electronic code book algorithm","
+  none of the mentioned",   c,CN
+"  In cryptography, the order of the letters in a message is rearranged by","
+  transpositional ciphers","
+  substitution ciphers","
+  both transpositional ciphers and substitution ciphers","
+  none of the mentioned",   a,CN
+  What is data encryption standard (DES)?,"
+  block cipher","
+  stream cipher","
+  bit cipher","
+  none of the mentioned",   a,CN
+  Cryptanalysis is used,"
+  to find some insecurity in a cryptographic scheme","
+  to increase the speed","
+  to encrypt the data","
+  none of the mentioned",   a,CN
+  Which one of the following is a cryptographic protocol used to secure HTTP connection?,"
+  stream control transmission protocol (SCTP)","
+  transport layer security (TSL)","
+  explicit congestion notification (ECN)","
+  resource reservation protocol",   b,CN
+  Voice privacy in GSM cellular telephone protocol is provided by,"
+  A5/2 cipher","
+  b5/4 cipher","
+  b5/6 cipher","
+  b5/8 cipher",   a,CN
+  ElGamal encryption system is,"
+  symmetric key encryption algorithm","
+  asymmetric key encryption algorithm","
+  not an encryption algorithm","
+  none of the mentioned",   b,CN
+  Cryptographic hash function takes an arbitrary block of data and returns,"
+  fixed size bit string","
+  variable size bit string","
+  both fixed size bit string and variable size bit string","
+  none of the mentioned",   a,CN
+  Multiple object can be sent over a TCP connection between client and server in,"
+  Persistent HTTP","
+  Ponpersistent HTTP","
+  Both Persistent HTTP and Ponpersistent HTTP","
+  None of the mentioned",  a,CN
+  HTTP is ________ protocol.,"
+  Application layer","
+  Transport layer","
+  Network layer","
+  None of the mentioned",  a,CN
+  In the network HTTP resources are located by,"
+  Uniform resource identifier","
+  Unique resource locator","
+  Unique resource identifier","
+  None of the mentioned",  a,CN
+  HTTP client requests by establishing a __________ connection to a particular port on the server.,"
+  User datagram protocol","
+  Transmission control protocol","
+  Broader gateway protocol","
+  None of the mentioned",  b,CN
+  In HTTP pipelining,"
+  Multiple HTTP requests are sent on a single TCP connection without waiting for the corresponding responses","
+  Multiple HTTP requests cannot be sent on a single TCP connection","
+  Multiple HTTP requests are sent in a queue on a single TCP connection","
+  None of the mentioned",  a,CN
+  FTP server listens for connection on port number,"
+  20","
+  21","
+  22","
+  23",  b,CN
+"  In FTP protocol, client contacts server using _________ as the transport protocol.","
+  Transmission control protocol","
+  User datagram protocol","
+  Datagram congestion control protocol","
+  Stream control transmission protocol",  a,CN
+"  In which mode FTP, the client initiates both the control and data connections.","
+  Active mode","
+  Passive mode","
+  Both Active mode and Passive mode","
+  None of the mentioned",  b,CN
+  The file transfer protocol is built on,"
+  Data centric architecture","
+  Service oriented architecture","
+  Client server architecture","
+  None of the mentioned",  c,CN
+"  In file transfer protocol, data transfer can be done in","
+  Stream mode","
+  Block mode","
+  Compressed mode","
+  All of the mentioned",  d,CN
+  Which methods are commonly used in Server Socket class?,"
+   Public Output Stream get Output Stream ()","
+ 	Public Socket accept ()","
+ 	Public synchronized void close ()","
+ 	None of the mentioned",  b,CN
+  Which constructor of Datagram Socket class is used to create a datagram socket and binds it with the given Port Number?,"
+ 	Datagram Socket(int port)","
+ 	Datagram Socket(int port, Int Address address)","
+ 	Datagram Socket()","
+ 	None of the mentioned",  b,CN
+  The client in socket programming must know which information?,"
+ 	IP address of Server","
+ 	Port number","
+ 	Both IP address of Server & Port number","
+ 	None of the mentioned",  c,CN
+  The URL Connection class can be used to read and write data to the specified resource referred by the URL,"
+ 	True","
+ 	False","
+","  Datagram is basically an information but there is no guarantee of its content, arrival or arrival time.",  a,CN
+"
+ 	False","
+","  TCP, FTP, Telnet, SMTP, POP etc. are examples of?","
+ 	Socket","
+ 	IP Address",  a,CN
+"
+ 	MAC Address","
+",  What does the java.net.InetAddress class represent?,"
+ 	Socket","
+ 	IP Address",  c,CN
+"
+ 	MAC Address","
+",  The flush () method of Print Stream class flushes any un cleared buffers in memory,"
+ 	True","
+ 	False",  b,CN
+  Which classes are used for connection-less socket programming?,"
+ 	Datagram Socket","
+ 	Datagram Packet","
+ 	Both Datagram Socket & Datagram Packet","
+ 	None of the mentioned",  a,CN
+  In Int Address class which method returns the host name of the IP Address?,"
+ 	Public String get Hostname()","
+ 	Public String getHostAddress()","
+ 	Public static IntAddress get Localhost()","
+ 	None of the mentioned",  c,CN
+  Cookies were originally designed for,"
+  Client side programming","
+  Server side programming","
+  Both Client side programming and Server side programming","
+  None of the mentioned",  b,CN
+  The Cookie manipulation is done using which property?,"
+  cookie","
+  cookies","
+  manipulate","
+  none of the mentioned",  a,CN
+  Which of the following explains Cookies nature?,"
+  Non Volatile","
+  Volatile","
+  Intransient","
+  Transient",  d,CN
+  Which attribute is used to extend the lifetime of a cookie?,"
+  Higherage","
+  Increaseage","
+  Maxage","
+  Lifetime",  c,CN
+  Which of the following defines the Cookie visibility?,"
+  Document Path","
+  LocalStorage","
+  SessionStorage","
+  All of the mentioned",  d,CN
+  Which of the following can be used to configure the scope of the Cookie visibility?,"
+  Path","
+  Domain","
+  Both Path  and Domain","
+  None of the mentioned",  d,CN
+  How can you set a Cookie visibility scope to local Storage?,"
+  /","
+  %","
+  *","
+  All of the mentioned",  a,CN
+  Which of the following is a Boolean cookie attribute?,"
+  Bool","
+  Secure","
+  Lookup","
+  Domain",  b,CN
+"  Which of the following function is used as a consequence of not including semicolons,","
+Commas or whitespace in the Cookie value?","
+  EncodeURIComponent()","
+  EncodeURI()","
+  EncodeComponent()",  a,CN
+"
+",  What is the constraint on the data per cookie?,"
+  2 KB","
+  1 KB","
+  4 KB",  c,CN
+  What REST stands for?,"
+ 	 Represent State Transfer","
+ 	 Representational State Transfer","
+ 	 Represent State Transfer","
+ 	 None of the mentioned",  b,CN
+   Which of the following protocol is used by Restful web services as a medium of communication between client and server?,"
+ 	HTTP","
+ 	FTP","
+ 	Gopher","
+ 	None of the mentioned",  a,CN
+  Which of the following is a best practice to create a standard URI for a web service?,"
+ 	Maintain Backward Compatibility","
+ 	Use HTTP Verb","
+ 	Both of the mentioned","
+ 	None of the mentioned",  C,CN
+   Which of the following HTTP method should be idempotent in nature?,"
+ 	OPTIONS","
+ 	DELETE","
+ 	POST","
+ 	HEAD",  b,CN
+  Which of the following directive of Cache Control Header of HTTP response indicates that resource is cachable by only client and server?,"
+ 	Public","
+ 	Private","
+ 	Nocache/nostore","
+ 	Maxage",  b,CN
+"  Which of the following HTTP Status code means CREATED, when a resource is successful created using POST or PUT request?","
+ 	200","
+ 	201","
+ 	204","
+ 	304",  b,CN
+  Which of the following annotation of JAX RS API is used to annotate a method used to create resource?,"
+ 	@Path","
+ 	@GET","
+ 	@PUT","
+ 	@POST",  C,CN
+  Which of the following annotation of JAX RS API binds the parameter passed to method to a HTTP matrix parameter in path?,"
+ 	@PathParam","
+ 	@QueryParam","
+ 	@MatrixParam","
+ 	@HeaderParam",  c,CN
+"  In REST architecture, a REST Server simply provides access to resources and REST client accesses and presents the resources.","
+ 	False","
+ 	True","
+",  POST operations should be idempotent.,  b,CN
+  Term is used to place packet in its route to its destination is called,"
+  Delayed","
+  Urgent","
+  Forwarding","
+  Delivering",  c,CN
+  A second technique to reduce routing table and simplify searching process is called,"
+  Network-Specific Method","
+  Network-Specific Motion","
+  Network-Specific Maintaining","
+  Network-Specific Membership",  a,CN
+  Next-Hop Method is used to reduce contents of a,"
+  Revolving table","
+  Rotating Table","
+  Routing Table","
+  Re-allocate table",  c,CN
+  Several techniques can make size of routing table manageable and also handle issues such as,"
+  Maturity","
+  Error reporting","
+  Tunneling","
+  Security",  d,CN
+  Host-specific routing is used for purposes such as checking route or providing,"
+  Network Measures","
+  Security Measures","
+  Routing Measures","
+  Delivery Measures",  b,CN
+"  In Unicast routing, if instability is between three nodes, stability cannot be","
+  Stable","
+  Reversed","
+  Guaranteed","
+  Forward",  c,CN
+"  In Unicast Routing, Dijkstra algorithm creates a shortest path tree from a","
+  Graph","
+  Tree","
+  Network","
+  Link",  a,CN
+"  In Multicast Routing Protocol, flooding is used to broadcast packets but it creates","
+  Gaps","
+  Loops","
+  Holes","
+  Links",  b,CN
+  RPF stands for,"
+  Reverse Path Forwarding","
+  Reverse Path Failure","
+  Reverse Packet Forwarding","
+  Reverse Protocol Failure",  a,CN
+  LSP stands for,"
+  Link Stable Packet","
+   Link State Packet","
+  Link State Protocol","
+  Link State Path",  b,CN
+  IPSec is designed to provide the security at the,"
+  transport layer","
+  network layer","
+  application layer","
+  session layer",   b,CN
+  In tunnel mode IPsec protects the,"
+  Entire IP packet","
+  IP header","
+  IP payload","
+  None of the mentioned",   a,CN
+  Network layer firewall works as a,"
+  frame filter","
+  packet filter","
+  both frame filter and packet filter","
+  none of the mentioned",   b,CN
+  Network layer firewall has two sub-categories as,"
+  stateful firewall and stateless firewall","
+  bit oriented firewall and byte oriented firewall","
+  frame firewall and packet firewall","
+  none of the mentioned",   a,CN
+  WPA2 is used for security in,"
+  ethernet","
+  bluetooth","
+  wi-fi","
+  none of the mentioned",   c,CN
+  An attempt to make a computer resource unavailable to its intended users is called,"
+  denial-of-service attack","
+  virus attack","
+  worms attack","
+  botnet process",   a,CN
+  Extensible authentication protocol is authentication framework frequently used in,"
+  wired personal area network","
+  wireless networks","
+  wired local area network","
+  none of the mentioned",   b,CN
+  Pretty good privacy (PGP) is used in,"
+  browser security","
+  email security","
+  FTP security","
+  none of the mentioned",   b,CN
+  PGP encrypts data by using a block cipher called,"
+  international data encryption algorithm","
+  private data encryption algorithm","
+  intrenet data encryption algorithm","
+  none of the mentioned",   a,CN
+"  When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, then it is called","
+  DNS lookup","
+  DNS hijacking","
+  DNS spoofing","
+  None of the mentioned",   c,CN
+  Open Shortest Path First (OSPF) is also called as _____________,"
+  Link state protocol","
+  Error-correction protocol","
+  Routing information protocol","
+  All of the mentioned",  a,CN
+  The computation of the shortest path in OSPF is usually done by ____________,"
+  Bellman-ford algorithm","
+  Routing information protocol","
+  Dijkstra’s algorithm","
+  Distance vector routing",  c,CN
+  Which of the following is false with respect to the features of OSPF?,"
+  Support for fixed-length sunbathing by including the subnet mask in the routing message","
+  More flexible link cost than can range from 1 to 65535","
+  Use of designated router","
+  Distribution of traffic over multiple paths that have equal cost to the destination",  a,CN
+"  In OSPF, which protocol is used to discover neighbour routers automatically?","
+  Link state protocol","
+  Error-correction protocol","
+  Routing information protocol","
+  Hello protocol",  d,CN
+  Which of the following is not a type of OSPF packet?,"
+  Hello","
+  Link-state request","
+  Link-state response","
+  Link-state ACK",  c,CN
+  Correct order of the operations of OSPF.,"
+	1 – Hello packets","
+	2 – Propagation of link-state information and building of routing tables","
+	3 – Establishing adjacencies and synchronisation database","
+  1-2-3",  b,CN
+"
+  3-2-1","
+  2-1-3","
+","  In OSPF header, which field is used to detect errors in the packet?","
+  Type",  d,CN
+"
+  Authentication type","
+  Checksum","
+","  In OSPF database descriptor packet, if more database descriptor packet flows, ‘M’ field is set to ____________","
+  1",  a,CN
+"
+  more","
+  none","
+","  In OSPF database descriptor packet, which field is used to indicate that the router is master?","
+  M",  b,CN
+"
+  I","
+  Options","
+","  In OSPF database descriptor packet, which field is used to detect a missing packet?","
+  LSA header",  c,CN
+"  An OSPF router receives an LSA, the router checks its sequence number, and this","
+number matches the sequence number of the LSA that the receiving router already has.","
+What does the receiving router do with the LSA?","
+  Ignores the LSA","
+  Adds it to the database",  a,CN
+"
+  Floods the LSA to the other routers","
+",  An OSPF router receives an LSA. The router checks its sequence number and finds that,"
+this number is higher than the sequence number it already has. Which two tasks does","
+the router perform with the LSA?",  b,CN
+"
+  Adds it to the database","
+  Sends newer LSU update to source router","
+  Floods the LSA to the other routers","
+",  An OSPF router receives an LSA. The router checks its sequence number and finds that,  c,CN
+"
+with the LSA?","
+  ignores the LSA","
+  adds it to the database","
+  sends newer LSU update to source router","
+  floods the LSA to the other routers",  c,CN
+"  Each LSA has its own age timer. By default, how long does an LSA wait before requiring an update?","
+  30 seconds","
+  1 minute","
+  30 minutes","
+  1 hour",  b,CN
+"  Distance vector protocols use the concept of split horizon, but link-state routing protocols, such as OSPF, do not.","
+  True","
+  False","
+",  The outcome of Dijkstra’s calculation is used to populate the __________,  b,CN
+"
+  Routing table","
+  Neighbor table","
+  Adjacency table","
+",  What is the IP protocol number for OSPF packets?,  a,CN
+"
+  86","
+  20","
+  76","
+",  Which packet is NOT an OSPF packet type?,  d,CN
+"
+  LSR","
+  DBD","
+  Query","
+",  Which multicast address does the OSPF Hello protocol use?,  a,CN
+"
+  22 0.0.6","
+  22 0.0.7","
+  22 0.0.8","
+",  The Hello protocol sends periodic updates to ensure that a neighbor relationship is maintained between adjacent routers.,  a,CN
+"
+  False","
+",1  DBD packets are involved during which two states?,"
+  Exstart","
+  Loading",  a,CN
+"
+  Two-way","
+",1  At which interval does OSPF refresh LSAs?,"
+  10 seconds","
+  30 seconds",  d,CN
+"
+  1 hour","
+",1  Which field is NOT a field within an OSPF packet header?,"
+  Packet length","
+  Router ID",  d,CN
+"
+  Maxage time","
+",1  Which two commands are required for basic OSPF configuration?,"
+  Network ip-address mask area area-id","
+  Network ip-address wildcard-mask area area-id",  d,CN
+"
+  both Network ip-address wildcard-mask area area-id and Router ospf process-id","
+",1  Which OSPF show command describes a list of OSPF adjacencies?,"
+  Show ipospf interface","
+  Show ipospf",  d,CN
+  Datagram switching is done at which layer of OSI model?,"
+  Network layer","
+  Physical layer","
+  Application layer","
+  Transport layer",  a,CN
+  Packets in datagram switching are referred to as,"
+  Switches","
+  Segments","
+  Datagrams","
+  Data-packets",  c,CN
+  Datagram networks mainly refers to,"
+  Connection oriented networks","
+  Connection less networks","
+  Telephone networks","
+  Internetwork",  b,CN
+  Datagrams are routed to their destinations with the help of,"
+  Switch table","
+  Segments table","
+  Datagram table","
+  Routing table",  c,CN
+  The main contents of the routing table in datagram networks are,"
+  Source and Destination address","
+  Destination address and Output port","
+  Source address and Output port","
+  Input port and Output port",  b,CN
+  Which of the following remains same in the header of the packet in a datagram network during the entire journey of the packet?,"
+  Destination address","
+  Source address","
+  Checksum","
+  Padding",  a,CN
+  Which of the following is true with respect to the delay in datagram networks?,"
+  Delay is greater than in a virtual circuit network","
+  Each packet may experience a wait at a switch","
+  Delay is not uniform for the packets of a message","
+  All of the mentioned",  d,CN
+"  During datagram switching, the packets are placed in __________ to wait until the given transmission line becomes available.","
+  Stack","
+  Queue","
+  Hash","
+  Routing table",  b,CN
+  The probability of the error in a transmitted block _________ with the length of the block,"
+  Remains same","
+  Decreases","
+  Increases","
+  None of the mentioned",  c,CN
+  Which of the following is true with respect to the datagram networks?,"
+  Number of flows of packets are not limited","
+  Packets may not be in order at the destination","
+  Path is not reserved","
+  All of the mentioned",  d,CN
+  Network layer firewall works as a,"
+  Frame filter","
+  Packet filter","
+  Both Frame as well as Packet filter","
+  None of the mentioned",  b,CN
+  Network layer firewall has two sub-categories as,"
+  State full firewall and stateless firewall","
+  Bit oriented firewall and byte oriented firewall","
+  Frame firewall and packet firewall","
+  None of the mentioned",  a,CN
+  A firewall is installed at the point where the secure internal network and untrusted external network meet which is also known as __________,"
+  Chock point","
+  Meeting point","
+  Firewall point","
+  Secure point",  a,CN
+  Which of the following is / are the types of firewall?,"
+  Packet Filtering Firewall","
+  Dual Homed Gateway Firewall","
+  Screen Host Firewall","
+  All of the mentioned",  a,CN
+  A proxy firewall filters at?,"
+  Physical layer","
+  Data link layer","
+  Network layer","
+  Application layer",  d,CN
+  A packet filter firewall filters at?,"
+  Physical layer","
+  Data link layer","
+  Network layer or Transport layer","
+  Application layer",  c,CN
+  What is one advantage of setting up a DMZ with two firewalls?,"
+  You can control where traffic goes in three networks","
+  You can do stateful packet filtering","
+  You can do load balancing","
+  Improved network performance",  c,CN
+  What tells a firewall how to reassemble a data stream that has been divided into packets?,"
+  The source routing future","
+  The number in the header’s identification field","
+  The destination IP address","
+  The header checksum field in the packet header",  a,CN
+  A stateful firewall maintains a ___________ which is a list of active connections?,"
+  Routing table","
+  Bridging table","
+  State table","
+  Connection table",  a,CN
+  A firewall needs to be __________ so that it can grow with the network it protects,"
+  Robust","
+  Expansive","
+  Fast","
+  Scalable",  b,CN
+  Complex networks today are made up of hundreds and sometimes thousands of,"
+  Documents","
+  Components","
+  Servers","
+  Entities",  b,CN
+"  Performance management, is closely related to","
+  Proactive Fault Management","
+  Fault management","
+  Reactive Fault Management","
+  None of the mentioned",  b,CN
+  Configuration management can be divided into two subsystems: reconfiguration and,"
+  Documentation","
+  Information","
+  Servers","
+  Entity",  a,CN
+"  In Network Management System, a term that responsible for controlling access to network based on predefined policy is called","
+  Fault Management","
+  Secured Management","
+  Active Management","
+  Security Management",  d,CN
+  Control of users’ access to network resources through charges are main responsibilities of,"
+  Reactive Fault Management","
+  Reconfigured Fault Management","
+  Accounting Management","
+  Security Management",  c,CN
+  The physical connection between an end point and a switch or between two switches is,"
+  Transmission path","
+  Virtual path","
+  Virtual circuit","
+  None of the mentioned",  a,CN
+  Which of the following networks supports pipelining effect?,"
+  Circuit-switched networks","
+  Message-switched networks","
+  Packet-switched networks","
+  None of the mentioned",  c,CN
+"  In Network Management System, maps track each piece of hardware and its connection to the","
+  IP Server","
+  Domain","
+  Network","
+  Data",  c,CN
+  MIB is a collection of groups of objects that can be managed by,"
+  SMTP","
+  UDP","
+  SNMP","
+  TCP/IP",  c,CN
+  A network management system can be divided into,"
+  three categories","
+  five broad categories","
+  seven broad categories","
+  ten broad categories",  b,CN
+  Ping can,"
+  Measure round-trip time","
+  Report packet loss","
+  Report latency","
+  All of the mentioned",   d,CN
+  Ping sweep is a part of,"
+  Traceroute","
+  Nmap","
+  Route","
+  Ipconfig",   b,CN
+  ICMP is used in,"
+  Ping","
+  Traceroute","
+  Ifconfig","
+  Both Ping & Traceroute",   d,CN
+  __________ command is used to manipulate TCP/IP routing table.,"
+  route","
+  Ipconfig","
+  Ifconfig","
+  Traceroute",   a,CN
+"  If you want to find the number of routers between a source and destination, the utility to be used is.","
+  route","
+  Ipconfig","
+  Ifconfig","
+  Traceroute",   d,CN
+  Which of the following is related to ipconfig in Microsoft Windows ?,"
+  Display all current TCP/IP network configuration values","
+  Modify  DHCP  settings","
+  Modify DNS settings","
+  All of the mentioned",   d,CN
+  This allows to check if a domain is available for registration.,"
+  Domain Check","
+  Domain Dossier","
+  Domain Lookup","
+  None of the mentioned",   a,CN
+  Choose the wrong statement,"
+  Nslookup is used to query a DNS server for DNS data","
+  Ping is used to check connectivity","
+  Pathping combines the functionality of ping with that of route","
+  Ifconfig can configure TCP/IP network interface parameters",   c,CN
+  Ethernet frame consists of,"
+  MAC address","
+  IP address","
+  both MAC address and IP address","
+  none of the mentioned",   a,CN
+  What is stat frame delimeter (SF  in ethernet frame?,"
+  10101010","
+  10101011","
+  00000000","
+  11111111",   b,CN
+  MAC address is of,"
+1) 24 bits","
+  36 bits","
+  42 bits","
+  48 bits",   d,CN
+  What is autonegotiation?,"
+  a procedure by which two connected devices choose common transmission parameters","
+  a security algorithm","
+  a routing algorithm","
+  none of the mentioned",   a,CN
+  Ethernet in metropolitan area network (MAN) can be used as,"
+  pure ethernet","
+  ethernet over SDH","
+  ethernet over MPLS","
+  all of the mentioned",   d,CN
+  A point-to-point protocol over ethernet is a network protocol for,"
+  encapsulating PPP frames inside ethernet frames","
+  encapsulating ehternet framse inside PPP frames","
+  for security of ethernet frames","
+  for security of PPP frames",   a,CN
+  High speed ethernet works on,"
+  coaxial cable","
+  twisted pair cable","
+  optical fiber","
+  none of the mentioned",   c,CN
+  The maximum size of payload field in ethernet frame is,"
+  1000 bytes","
+  1200 bytes","
+  1300 bytes","
+  1500 bytes",   d,CN
+  What is interframe gap?,"
+  idle time between frames","
+  idle time between frame bits","
+  idle time between packets","
+  none of the mentioned",   a,CN
+  An ethernet frame that is less than the IEEE 80 3 minimum length of 64 octets is called,"
+  short frame","
+  run frame","
+  mini frame","
+  man frame",   b,CN
+  What is the access point (AP) in wireless LAN?,"
+  device that allows wireless devices to connect to a wired network","
+  wireless devices itself","
+  both device that allows wireless devices to connect to a wired network and wireless devices itself","
+  none of the mentioned",   a,CN
+  In wireless ad-hoc network,"
+  access point is not required","
+  access point is must","
+  nodes are not required","
+  none of the mentioned",   a,CN
+  Which multiple access technique is used by IEEE 80 11 standard for wireless LAN?,"
+  CDMA","
+  CSMA/CA","
+  ALOHA","
+  None of the mentioned",   b,CN
+  In wireless distribution system,"
+  multiple access point are inter-connected with each other","
+  there is no access point","
+  only one access point exists","
+  none of the mentioned",   a,CN
+  A wireless network interface controller can work in,"
+  infrastructure mode","
+  ad-hoc mode","
+  both infrastructure mode and ad-hoc mode","
+  none of the mentioned",   c,CN
+  In wireless network an extended service set is a set of,"
+  connected basic service sets","
+  all stations","
+  all access points","
+  none of the mentioned",   a,CN
+  Mostly ________ is used in wireless LAN.,"
+  time division multiplexing","
+  orthogonal frequency division multiplexing","
+  space division multiplexing","
+  none of the mentioned",   b,CN
+  Which one of the following event is not possible in wireless LAN.,"
+  collision detection","
+  acknowledgement of data frames","
+  multi-mode data transmission","
+  none of the mentioned",   a,CN
+  What is Wired Equivalent Privacy (WEP) ?,"
+  security algorithm for ethernet","
+  security algorithm for wireless networks","
+  security algorithm for usb communication","
+  none of the mentioned",   b,CN
+  What is WPA?,"
+  wi-fi protected access","
+  wired protected access","
+  wired process access","
+  wi-fi process access",   a,CN
+  What is internet?,"
+  a single network","
+  a vast collection of different networks","
+  interconnection of local area networks","
+  none of the mentioned",   b,CN
+"  To join the internet, the computer has to be connected to a","
+  internet architecture board","
+  internet society","
+  internet service provider","
+  none of the mentioned",   c,CN
+  Internet access by transmitting digital data over the wires of a local telephone network is provided by,"
+  leased line","
+  digital subscriber line","
+  digital signal line","
+  none of the mentioned",   b,CN
+  ISP exchanges internet traffic between their networks by,"
+  internet exchange point","
+  subscriber end point","
+  isp end point","
+  none of the mentioned",   a,CN
+  Which one of the following protocol is not used in internet?,"
+  HTTP","
+  DHCP","
+  DNS","
+  None of the mentioned",   d,CN
+  IPv6 addressed have a size of,"
+  32 bits","
+  64 bits","
+  128 bits","
+  265 bits",   c,CN
+  Internet works on,"
+  packet switching","
+  circuit switching","
+  both packet switching and circuit switching","
+  none of the mentioned",   a,CN
+  Which one of the following is not an application layer protocol used in internet?,"
+  remote procedure call","
+  internet relay chat","
+  resource reservation protocol","
+  none of the mentioned",   c,CN
+  Which protocol assigns IP address to the client connected in the internet?,"
+  DHCP","
+  IP","
+  RPC","
+  none of the mentioned",   a,CN
+  Which one of the following is not used in media access control?,"
+  ethernet","
+  digital subscriber line","
+  fiber distributed data interface","
+  none of the mentioned",   d,CN
+  An interconnected collection of piconet is called,"
+  scatternet","
+  micronet","
+  mininet","
+  none of the mentioned",   a,CN
+"  In a piconet, there can be up to ________ parked nodes in the net.","
+  63","
+  127","
+  255","
+  511",   c,CN
+  Bluetooth is the wireless technology for,"
+  local area network","
+  personal area network","
+  both local area network and personal area network","
+  none of the mentioned",   b,CN
+  Bluetooth uses,"
+  frequency hoping spread spectrum","
+  orthogonal frequency division multiplexing","
+  time division multiplexing","
+  none of the mentioned",   a,CN
+  Unauthorised access of information from a wireless device through a bluetooth connection is called,"
+  bluemaking","
+  bluesnarfing","
+  bluestring","
+  none of the mentioned",   b,CN
+  What is A2DP (advanced audio distribution profile)?,"
+  a bluetooth profile for streaming audio","
+  a bluetooth profile for streaming video","
+  a bluetooth profile for security","
+  none of the mentioned",   a,CN
+  In the piconet of bluetooth one master device,"
+  can not be slave","
+  can be slave in another piconet","
+  can be slave in the same piconet","
+  none of the mentioned",   b,CN
+  Bluetooth transceiver devices operate in ______ band.,"
+   4 GHz ISM","
+   5 GHz ISM","
+   6 GHz ISM","
+   7 GHz ISM",   a,CN
+  The bluetooth supports,"
+  point-to-point connections","
+  point-to-multipoint connection","
+  both point-to-point connections and point-to-multipoint connection","
+  none of the mentioned",   c,CN
+  A scatternet can have maximum,"
+  10 piconets","
+  20 piconets","
+  30 piconets","
+  40 piconets",   a,CN
+  WiMAX stands for,"
+  wireless maximum communication","
+  worldwide interoperability for microwave access","
+  worldwide international standard for microwave access","
+  none of the mentioned",   b,CN
+  WiMAX provides,"
+  simplex communication","
+  half duplex communication","
+  full duplex communication","
+  none of the mentioned",   c,CN
+  WiMAX uses the,"
+  orthogonal frequency division multiplexing","
+  time division multiplexing","
+  space division multiplexing","
+  all of the mentioned",   a,CN
+  Which one of the following modulation scheme is supported by WiMAX?,"
+  binary phase shift keying modulation","
+  quadrature phase shift keying modulation","
+  quadrature amplitude modulation","
+  all of the mentioned",   d,CN
+  WiMAX MAC layer provides an interface between,"
+  higher transport layers and physical layer","
+  application layer and network layer","
+  data link layer and network layer","
+  none of the mentioned",   a,CN
+"  For encryption, WiMAX supports","
+  advanced encryption standard","
+  triple data encryption standard","
+  both advanced encryption standard and triple data encryption standard","
+  none of the mentioned",   c,CN
+  WiMAX provides,"
+  VoIP services","
+  IPTV services","
+  Both VoIP services and IPTV services","
+  None of the mentioned",   c,CN
+  Devices that provide the connectivity to a WiMAX network are known as,"
+  subscriber stations","
+  base stations","
+  gateway","
+  none of the mentioned",   a,CN
+  WiMAX is mostly used for,"
+  local area network","
+  metropolitan area network","
+  personal area network","
+  none of the mentioned",   b,CN
+  Which one of the following frequency is not used in WiMAX for communication?,"
+   3 GHz","
+   4 GHz","
+   5 GHz","
+   5 GHz",   b,CN
+  SONET stands for,"
+  synchronous optical network","
+  synchronous operational network","
+  stream optical network","
+  shell operational network",   a,CN
+"  In SONET, STS-1 level of electrical signalling has the data rate of","
+  5 84 Mbps","
+  15 52 Mbps","
+  46 56 Mbps","
+  none of the mentioned",   a,CN
+  The path layer of SONET is responsible for the movement of a signal,"
+  from its optical source to its optical destination","
+  across a physical line","
+  across a physical section","
+  none of the mentioned",   b,CN
+  The photonic layer of the SONET is similar to the __________ of OSI model.,"
+  network layer","
+  data link layer","
+  physical layer","
+  none of the mentioned",   c,CN
+"  In SONET, each synchronous transfer signal STS-n is composed of","
+  2000 frames","
+  4000 frames","
+  8000 frames","
+  16000 frames",   c,CN
+  Which one of the following is not true about SONET?,"
+  frames of lower rate can be synchronously time-division multiplexed into a higher-rate frame","
+  multiplexing is synchronous TDM","
+  all clocks in the network are locked to a master clock","
+  none of the mentioned",   d,CN
+  A linear SONET network can be,"
+  point-to-point","
+  multi-point","
+  both point-to-point and multi-point","
+  none of the mentioned",   c,CN
+  Automatic protection switching in linear network is defined at the,"
+  line layer","
+  section layer","
+  photonic layer","
+  path layer",   a,CN
+  A unidirectional path switching ring is a network with,"
+  one ring","
+  two rings","
+  three rings","
+  four rings",   b,CN
+  What is SDH?,"
+  sdh is similar standard to SONET developed by ITU-T","
+  synchronous digital hierarchy","
+  both sdh is similar standard to SONET developed by ITU-T and synchronous digital hierarchy","
+  none of the mentioned",   c,CN
+  Real-time transport protocol (RTP) is mostly used in,"
+  streaming media","
+  video teleconference","
+  television services","
+  all of the mentioned",   d,CN
+  RTP is used to,"
+  carry the media stream","
+  monitor transmission statistics of streams","
+  monitor quality of service of streams","
+  none of the mentioned",   a,CN
+  RTP provides the facility of jitter ____________,"
+  media stream","
+  expansion","
+  both media stream and expansion","
+  none of the mentioned",   a,CN
+  Which protocol provides the synchronization between media streams?,"
+  RTP","
+  RTCP","
+  RPC","
+  None of the mentioned",   b,CN
+  An RTP session is established for,"
+  each media stream","
+  all media streams","
+  some predefined number of media streams","
+  none of the mentioned",   a,CN
+  RTP can use,"
+  unprevileleged UDP ports","
+  stream control transmission protocol","
+  datagram congestion control protocol","
+  all of the mentioned",   d,CN
+  Which one of the following multimedia formats can not be supported by RTP?,"
+  MPEG-4","
+  MJPEG","
+  MPEG","
+  None of the mentioned",   d,CN
+  An RTP header has a minimum size of,"
+  12 bytes","
+  16 bytes","
+  24 bytes","
+  32 bytes",   a,CN
+  Which one of the following is not correct?,"
+  RTCP provides canonical end-point identifiers to all session participants","
+  RTCP reports are expected to be sent by all participants","
+  RTCP itself does not provide any flow encryption or authentication methods","
+  None of the mentioned",   d,CN
+  Which protocol defines a profile of RTP that provides cryptographic services for the transfer of payload data?,"
+  SRTP","
+  RTCP","
+  RCP","
+  None of the mentioned",   a,CN
+  An RPC (remote procedure call) is initiated by the,"
+  server","
+  client","
+  both server and client","
+  none of the mentioned",   b,CN
+"  In RPC, while a server is processing the call, the client is blocked","
+  unless the client sends an asynchronous request to the server","
+  unless the call processing is complete","
+  for the complete duration of the connection","
+  none of the mentioned",   a,CN
+  Remote procedure calls is,"
+  inter-process communication","
+  a single process","
+  a single thread","
+  none of the mentioned",   a,CN
+  RPC allows a computer program to cause a subroutine to execute in,"
+  its own address space","
+  another address space","
+  both its own address space and another address space","
+  none of the mentioned",   b,CN
+  RPC works between two processes. These processes must be,"
+  on the same computer","
+  on different computers connected with a network","
+  both on the same computer and on different computers connected with a network","
+  none of the mentioned",   c,CN
+  A remote procedure is uniquely identified by,"
+  program number","
+  version number","
+  procedure number","
+  all of the mentioned",   d,CN
+  An RPC application requires,"
+  specific protocol for client server communication","
+  a client program","
+  a server program","
+  all of the mentioned",   d,CN
+  RPC is used to,"
+  establish a server on remote machine that can respond to queries","
+  retrieve information by calling a query","
+  both establish a server on remote machine that can respond to queries and retrieve information by calling a query","
+  none of the mentioned",   c,CN
+  RPC is a,"
+  synchronous operation","
+  asynchronous operation","
+  time independent operation","
+  none of the mentioned",   a,CN
+  The local operating system on the server machine passes the incoming packets to the,"
+  server stub","
+  client stub","
+  client operating system","
+  none of the mentioned",   a,CN
+  Which of the following is an advantage of anomaly detection?,"
+  Rules are easy to define","
+  Custom protocols can be easily analyzed","
+  The engine can scale as the rule set grows","
+  Malicious activity that falls within normal usage patterns is detected",  c,CN
+  A false positive can be defined as…,"
+  An alert that indicates nefarious activity on a system that, upon further inspection, turns out to represent legitimate network traffic or behavior","
+  An alert that indicates nefarious activity on a system that is not running on the network","
+  The lack of an alert for nefarious activity","
+  Both An alert that indicates nefarious activity on a system that, upon further inspection, turns out to represent legitimate network traffic or behavior and An alert that indicates nefarious activity on a system that is not running on the network",  d,CN
+  One of the most obvious places to put an IDS sensor is near the firewall. Where exactly in relation to the firewall is the most productive placement?,"
+  Inside the firewall","
+  Outside the firewall","
+  Both inside and outside the firewall","
+  Neither inside the firewall nor outside the firewall.",  a,CN
+  What is the purpose of a shadow honeypot?,"
+  To flag attacks against known vulnerabilities","
+  To help reduce false positives in a signature-based IDS","
+  To randomly check suspicious traffic identified by an anomaly detection system","
+  To enhance the accuracy of a traditional honeypot",  c,CN
+  At which two traffic layers do most commercial IDSes generate signatures?,"
+  Application layer","
+  Network layer","
+  Transport layer","
+  both Transport layer and Network layer",  d,CN
+  An IDS follows a two-step process consisting of a passive component and an active component. Which of the following is part of the active component?,"
+  Inspection of password files to detect inadvisable passwords","
+  Mechanisms put in place to reenact known methods of attack and record system responses","
+  Inspection of system to detect policy violations","
+  Inspection of configuration files to detect inadvisable settings",  b,CN
+"  When discussing IDS/IPS, what is a signature?","
+  An electronic signature used to authenticate the identity of a user on the network","
+  Attack-definition file","
+  It refers to “normal,” baseline network behavior","
+  None of the above",  b,CN
+  “Semantics-aware” signatures automatically generated by Nemean are based on traffic at which two layers?,"
+  Application layer","
+  Network layer","
+  Session layer","
+  both Application layer and Session layer",  d,CN
+  Which of the following is used to provide a baseline measure for comparison of IDSes?,"
+  Crossover error rate","
+  False negative rate","
+  False positive rate","
+  Bit error rate",  a,CN
+  Which of the following is true of signature-based IDSes?,"
+  They alert administrators to deviations from “normal” traffic behavior","
+  They identify previously unknown attacks","
+  The technology is mature and reliable enough to use on production networks","
+  They scan network traffic or packets to identify matches with attack-definition files",  d,CN
+  Both HDLC and PPP both are Data link layer protocols.,"
+  True","
+  False","
+",   Which protocol does the PPP protocol provide for handling the capabilities of the connection/link on the network?,  a,CN
+"
+  NCP","
+  Both LCP and NCP","
+  TCP","
+",  The PPP protocol,  c,CN
+"
+  Is one of the protocols for making an Internet connection over a phone line","
+  Both Is designed for simple links which transport packets between two peers & Is one of the protocols for making an Internet connection over a phone line","
+  None of the mentioned","
+",  PPP provides the _______ layer in the TCP/IP suite.,  c,CN
+"
+  Network","
+  Transport","
+  Application","
+",  PPP consists of ________components,  a,CN
+"
+  Three ( encapsulating, a link control protocol, NCP )","
+  Two ( a link control protocol, Simple Network Control protocol)","
+  None of the mentioned","
+",  The PPP encapsulation,  b,CN
+"
+  Requires framing to indicate the beginning and end of the encapsulation","
+  Establishing, configuring and testing the data-link connection","
+  None of the mentioned","
+",  A Link Control Protocol (LCP) is used for,  a,CN
+"
+  Establishing and configuring different network-layer protocols","
+  Testing the different network-layer protocols","
+  None of the mentioned","
+",  A family of network control protocols (NCPs),  a,CN
+"
+  Are a series of independently-defined protocols that encapsulate","
+  Are a series of independently defined protocols that provide transparent","
+  The same as NFS","
+",  Choose one from the following,  b,CN
+"
+  PPP can terminate the link only during the link establishment phase","
+  PPP can terminate the link during the authentication phase","
+  None of the mentioned","
+","  The link necessarily begins and ends with this phase. During this phase, the LCP automata will be in INITIAL or STARTING states",  a,CN
+  EIGRP is a routing Protocol design by Cisco. (Yes/No)?,"
+  Yes","
+  No","
+",  EIGRP metric is ________,  a,CN
+"
+  Bandwidth only","
+  Hop Count","
+  Delay only","
+",  EIGRP can support ____________,  a,CN
+"
+  Auto summary","
+  Unequal cast load balancing","
+  All od the above","
+",  EIGRP send the hello message after every ___________ seconds,  d,CN
+"
+  5 seconds (LAN), 5 seconds (WAN)","
+  15s","
+  180s","
+",  Administrative distance for internal EIGRP is ______,  a,CN
+"
+  170","
+  110","
+  91","
+",  The EIGRP metric values include:,  a,CN
+"
+  Bandwidth","
+  MTU","
+  All of the above","
+",  For default gateway you will use which of following command on Cisco router?,  d,CN
+"
+  IP default gateway","
+  IP default route","
+  Default network","
+",  Administrative distance for external EIGRP route is _______,  a,CN
+"
+  170","
+  110","
+  100","
+",  EIGRP uses the ____________ algorithm for finding shortest path.,  b,CN
+"
+  DUAL","
+  Linkstat","
+  Dikstraalgo","
+","  In EIGRP best path is known as the successor, where as backup path is known as __________",  b,CN
+" 	_____________ allows LAN users to share computer programs and data.","
+  Communication server","
+  Print server","
+  File server","
+ 	Network",  c,CN
+  STP stands for,"
+  Shielded twisted pair cable","
+  Spanning tree protocol","
+  Static transport protocol","
+ 	None of the mentioned",  a,CN
+  A standalone program that has been modified to work on a LAN by including concurrency controls such as file and record locking is an example of ___________,"
+  LAN intrinsic software","
+  LAN aware software","
+  Groupware","
+  LAN ignorant software",  a,CN
+"  The __________ portion of LAN management software restricts access, records user activities and audit data etc.","
+  Configuration management","
+  Security management","
+  Performance management","
+  None of the mentioned",  b,CN
+  What is the max cable length of STP?,"
+  100 ft","
+  200 ft","
+  100 m","
+  200 m",  d,CN
+  What is the max data capacity of STP?,"
+  10 mbps","
+  100 mbps","
+  1000 mbps","
+  10000 mbps",  b,CN
+  Which connector STP uses?,"
+  BNC","
+  RJ-11","
+  RJ-45","
+  RJ-69",  c,CN
+  What is the central device in star topology?,"
+  STP server","
+  Hub/switch","
+  PDC","
+  Router",  b,CN
+  What is max data capacity for optical fiber cable?,"
+  10 mbps","
+  100 mbps","
+  1000 mbps","
+  10000 mbps",  c,CN
+  Which of the following architecture uses CSMA/CD access method?,"
+  ARC net","
+  Ethernet","
+  Router","
+  STP server",  b,CN

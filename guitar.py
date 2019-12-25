@@ -12,11 +12,12 @@
                 
         
         
-    import csv
+import csv
     
         
-    import codecs
-    with codecs.open('sargams.csv', 'r',encoding='utf-8-sig') as f:
+import codecs
+try:
+    with codecs.open('sargam.csv', 'r',encoding='utf-8-sig') as f:
         reader = csv.reader(f)
         for row in reader:
            
@@ -25,8 +26,11 @@
               'VALUES("%s", "%s", "%s")', 
               row)
         
-    db.commit()
-    db.close()
+except:
+        pass
+        
+db.commit()
+db.close()
 
 import pandas as pd
 from pandas.io import sql
@@ -65,7 +69,8 @@ with open('sargams.csv','r',encoding='utf-8') as csvfile:
          name = name.replace(u'0x97', u' ')
          sargam = sargam.replace(u'0x97', u' ')
          sargam = sargam.replace(u'0x8d', u' ')
-         writer.writerow([name,sargam) 
+         sargam = sargam.replace(u'0x85', u' ')
+         writer.writerow([name,sargam]) 
         
 file.close()
  
@@ -105,14 +110,13 @@ file.close()
 
 
 
-
-
-
-
-
-
-
-
     
     
-  
+    mynumbers = []
+    with open('sitemap.txt') as f:
+        for line in f:
+            s = line.split(" ")
+    
+    
+s[0]
+    mynumbers[192]

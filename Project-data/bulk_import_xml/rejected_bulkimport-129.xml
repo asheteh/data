@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<CaseManagementOrderStatus MerchantID="thinkgeek" Name="Case Management Order Status" Date="2019-05-01T08:37:29-05:00">                                 
+  <Update MerchantReferenceNumber="201905016e0c5ad428" RequestID="5566893461326168804014">                                 
+    <OriginalDecision>REVIEW</OriginalDecision>                                 
+    <NewDecision>ACCEPT</NewDecision>                                 
+    <Reviewer>gamestop_janderson</Reviewer>                                 
+    <ReviewerComments>Bulk import based on CyberSource Decision Manager export. Original decision made at 2019-05-01T08:37:29-05:00</ReviewerComments>                                 
+    <Queue>force_fraud Queue</Queue>                                 
+    <Profile>A: Force Fraud</Profile>                                 
+  </Update>                                 
+</CaseManagementOrderStatus>

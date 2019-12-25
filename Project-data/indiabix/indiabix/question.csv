@@ -1,0 +1,1864 @@
+id,qno,Question,A,B,C,D,Answer,qtype
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int a[3][4] = {1, 2, 3, 4, 4, 3, 2, 1, 7, 8, 9, 0};
+    printf(""%u, %u\n"", a+1, &a+1);
+    return 0;
+}
+What will be the output of the program in Turb C (under DOS)?
+","65474, 65476","65480, 65496","65480, 65488","65474, 65488",B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char huge *near *far *ptr1;
+    char near *far *huge *ptr2;
+    char far *huge *near *ptr3;
+    printf(""%d, %d, %d\n"", sizeof(ptr1), sizeof(*ptr2), sizeof(**ptr3));
+    return 0;
+}
+What will be the output of the program?
+","4, 4, 4","2, 4, 4","4, 4, 2","2, 4, 8",A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int a[3][4] = {1, 2, 3, 4, 4, 3, 2, 1, 7, 8, 9, 0};
+    printf(""%u, %u\n"", a+1, &a+1);
+    return 0;
+}
+What will be the output of the program in Turb C (under DOS)?
+","1, 2, 3, 4, 5,","Garbage value, 1, 2, 3, 4,","0, 1, 2, 3, 4,","2, 3, 4, 5, 6,",B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int a[3][4] = {1, 2, 3, 4, 4, 3, 2, 1, 7, 8, 9, 0};
+    printf(""%u, %u\n"", a+1, &a+1);
+    return 0;
+}
+What will be the output of the program in Turb C (under DOS)?
+",1,10,0,6,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int a[3][4] = {1, 2, 3, 4, 4, 3, 2, 1, 7, 8, 9, 0};
+    printf(""%u, %u\n"", a+1, &a+1);
+    return 0;
+}
+What will be the output of the program in Turb C (under DOS)?
+","65486, 65488","65486, 65486","65486, 65490","65486, 65487",B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int a[3][4] = {1, 2, 3, 4, 4, 3, 2, 1, 7, 8, 9, 0};
+    printf(""%u, %u\n"", a+1, &a+1);
+    return 0;
+}
+What will be the output of the program in Turb C (under DOS)?
+",5,4,6,7,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char huge *near *far *ptr1;
+    char near *far *huge *ptr2;
+    char far *huge *near *ptr3;
+    printf(""%d, %d, %d\n"", sizeof(ptr1), sizeof(*ptr2), sizeof(**ptr3));
+    return 0;
+}
+What will be the output of the program?
+","4343445454, 4343445454","4545455434, 4545455434","4294967295, 4294967295",Garbage values,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char huge *near *far *ptr1;
+    char near *far *huge *ptr2;
+    char far *huge *near *ptr3;
+    printf(""%d, %d, %d\n"", sizeof(ptr1), sizeof(*ptr2), sizeof(**ptr3));
+    return 0;
+}
+What will be the output of the program?
+",4,8,16,22,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char huge *near *far *ptr1;
+    char near *far *huge *ptr2;
+    char far *huge *near *ptr3;
+    printf(""%d, %d, %d\n"", sizeof(ptr1), sizeof(*ptr2), sizeof(**ptr3));
+    return 0;
+}
+What will be the output of the program?
+","4, 4, 4","4, 2, 2","2, 8, 4","2, 4, 8",B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char huge *near *far *ptr1;
+    char near *far *huge *ptr2;
+    char far *huge *near *ptr3;
+    printf(""%d, %d, %d\n"", sizeof(ptr1), sizeof(*ptr2), sizeof(**ptr3));
+    return 0;
+}
+What will be the output of the program?
+","Nagpur, Chennai, Bangalore","agpur, hennai, angalore","agpur, Chennai, angalore","agpur, Bangalore, Bangalore",D,C
+1,1,"#include<stdio.h>
+int main()
+{
+    float f=43.20;
+    printf(""%e, "", f);
+    printf(""%f, "", f);
+    printf(""%g"", f);
+    return 0;
+}
+What will be the output of the program?
+",4.320000e,", 43.200001, 43.2","4.3, 43.22, 43.21","4.3e, 43.20f, 43.00",A,C
+1,1,"#include<stdio.h>
+#include<stdlib.h>
+#define MAXROW 3
+#define MAXCOL 4
+
+int main()
+{
+    int (*p)[MAXCOL];
+    p = (int (*) [MAXCOL])malloc(MAXROW *sizeof(*p));
+    printf(""%d, %d\n"", sizeof(p), sizeof(*p));
+    return 0;
+}
+How many bytes of memory will the following code reserve?
+","2, 8","4, 16","8, 24","16, 32",A,C
+1,1,"short int is 2 bytes wide?
+",1 ... 65535,Expression syntax error,No output,"0, 1, 2, 3, 4, 5",A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char huge *near *ptr1;
+    char huge *far *ptr2;
+    char huge *huge *ptr3;
+    printf(""%d, %d, %d\n"", sizeof(ptr1), sizeof(ptr2), sizeof(ptr3));
+    return 0;
+}
+What will be the output of the program in Turbo C?
+","4, 4, 8","2, 4, 4","4, 4, 2","2, 4, 8",B,C
+1,1,"#include<stdio.h>
+int main()
+{
+    float f=43.20;
+    printf(""%e, "", f);
+    printf(""%f, "", f);
+    printf(""%g"", f);
+    return 0;
+}
+What will be the output of the program?
+",Error,C,C++,Compiler error,B,C
+1,1,"#include<stdio.h>
+int main()
+{
+    float f=43.20;
+    printf(""%e, "", f);
+    printf(""%f, "", f);
+    printf(""%g"", f);
+    return 0;
+}
+What will be the output of the program?
+",Non of above,"2.000000, 1.000000","1.500000, 1.500000","1.550000, 2.000000",A,C
+1,1,"#include<stdio.h>
+int main()
+{
+    float f=43.20;
+    printf(""%e, "", f);
+    printf(""%f, "", f);
+    printf(""%g"", f);
+    return 0;
+}
+What will be the output of the program?
+","1.000000, 2.000000","2.2, 2.50, 2.50, 2.5","2.2e, 2.25f, 2.00, 2.25","2.250000e+000, 2.250000, 2.25, 2.250000",C,C
+1,1,"#include<stdio.h>
+#include<stdlib.h>
+#define MAXROW 3
+#define MAXCOL 4
+
+int main()
+{
+    int (*p)[MAXCOL];
+    p = (int (*) [MAXCOL])malloc(MAXROW *sizeof(*p));
+    printf(""%d, %d\n"", sizeof(p), sizeof(*p));
+    return 0;
+}
+How many bytes of memory will the following code reserve?
+",65536,Allocation failed,Error,No output,B,C
+1,1,"short int is 2 bytes wide?
+",It matters,It doesn't matters,matters,No output,B,C
+1,1,"short int is 2 bytes wide?
+",Infinite loop,0 1 2 ... 65535,0 1 2 ... 32767 - 32766 -32765 -1 0,No output,D,C
+1,1,"short int is 2 bytes wide?
+",Hi,Hello,Hi Hello,None of above,A,C
+1,1,"short int is 2 bytes wide?
+","0, 1, 3","1, 2, 3","3, 1, 3","1, 3, 1",C,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x = 10, y = 20;
+    if(!(!x) && x)
+        printf(""x = %d\n"", x);
+    else
+        printf(""y = %d\n"", y);
+    return 0;
+}
+What will be the output of the program?
+",y =20,x = 0,x = 10,x = 1,C,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int k, num = 30;
+    k = (num < 10) ? 100 : 200;
+    printf(""%d\n"", num);
+    return 0;
+}
+What will be the output of the program?
+",200,30,100,500,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char huge *near *ptr1;
+    char huge *far *ptr2;
+    char huge *huge *ptr3;
+    printf(""%d, %d, %d\n"", sizeof(ptr1), sizeof(ptr2), sizeof(ptr3));
+    return 0;
+}
+What will be the output of the program in Turbo C?
+","4, 4, 8","4, 4, 4","2, 4, 8","2, 4, 4",D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    const int k=7;
+    int *const q=&k;
+    printf(""%d"", *q);
+    return 0;
+}
+Point out the error in the program.
+",Error: RValue required,Error: Lvalue required,Error: cannot convert from ',' to ',D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    enum status {pass, fail, absent};
+    enum status stud1, stud2, stud3;
+    stud1 = pass;
+    stud2 = absent;
+    stud3 = fail;
+    printf(""%d %d %d\n"", stud1, stud2, stud3);
+    return 0;
+}
+What will be the output of the program ?
+","0, 1, 2","1, 2, 3","0, 2, 1","1, 3, 2",C,C
+1,1,"#include<stdio.h>
+#include<stdarg.h>
+void display(char *s, ...);
+void show(char *t, ...);
+
+int main()
+{
+    display(""Hello"", 4, 12, 13, 14, 44);
+    return 0;
+}
+void display(char *s, ...)
+{
+    show(s, ...);
+}
+void show(char *t, ...)
+{
+    int a;
+    va_list ptr;
+    va_start(ptr, s);
+    a = va_arg(ptr, int);
+    printf(""%f"", a);
+}
+Point out the error in the following program.
+",Error: invalid function , call,Error: invalid function , call,B,C
+1,1,"#include<stdio.h>
+#define PRINT(int) printf(""int=%d, "", int);
+
+int main()
+{
+    int x=2, y=3, z=4;   
+    PRINT(x);
+    PRINT(y);
+    PRINT(z);
+    return 0;
+}
+What will be the output of the program?
+","int=2, int=3, int=4","int=2, int=2, int=2","int=3, int=3, int=3","int=4, int=4, int=4",A,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char dest[] = {97, 97, 0};
+    char src[] = ""aaa"";
+    int i;
+    if((i = memcmp(dest, src, 2))==0)
+        printf(""Got it"");
+    else
+        printf(""Missed"");
+    return 0;
+}
+What will function ",Missed,Got it,Error in memcmp statement,None of above,B,C
+1,1,"#include<stdio.h>
+
+void fun(void *p);
+int i;
+
+int main()
+{
+    void *vptr;
+    vptr = &i;
+    fun(vptr);
+    return 0;
+}
+void fun(void *p)
+{
+    int **q;
+    q = (int**)&p;
+    printf(""%d\n"", **q);
+}
+What will be the output of the program ?
+",Error: cannot convert from , to ,Garbage value,0,C,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x = 10, y = 20;
+    if(!(!x) && x)
+        printf(""x = %d\n"", x);
+    else
+        printf(""y = %d\n"", y);
+    return 0;
+}
+What will be the output of the program?
+",This is default,"
+This is case 1",This is case 3,"
+This is default",A,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x = 10, y = 20;
+    if(!(!x) && x)
+        printf(""x = %d\n"", x);
+    else
+        printf(""y = %d\n"", y);
+    return 0;
+}
+What will be the output of the program?
+",This is case 1,"
+This is case 3",This is default,Hello,C,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x = 10, y = 20;
+    if(!(!x) && x)
+        printf(""x = %d\n"", x);
+    else
+        printf(""y = %d\n"", y);
+    return 0;
+}
+What will be the output of the program?
+",Hi,Hello,Bye,Hi,D,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x = 10, y = 20;
+    if(!(!x) && x)
+        printf(""x = %d\n"", x);
+    else
+        printf(""y = %d\n"", y);
+    return 0;
+}
+What will be the output of the program?
+",Bye,1 2 3 ... 127,1 2 3 ... 255,1 2 3 ... 127 128 0 1 2 3 ... infinite times,A,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int k, num = 30;
+    k = (num < 10) ? 100 : 200;
+    printf(""%d\n"", num);
+    return 0;
+}
+What will be the output of the program?
+","300, 300, 200","Garbage, 300, 200","300, Garbage, 200","300, 300, Garbage",C,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int k, num = 30;
+    k = (num < 10) ? 100 : 200;
+    printf(""%d\n"", num);
+    return 0;
+}
+What will be the output of the program?
+",2 1,3 1,4 1,5 1,A,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int k, num = 30;
+    k = (num < 10) ? 100 : 200;
+    printf(""%d\n"", num);
+    return 0;
+}
+What will be the output of the program?
+",6 1,7 0,2 1,3 1,A,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int k, num = 30;
+    k = (num < 10) ? 100 : 200;
+    printf(""%d\n"", num);
+    return 0;
+}
+What will be the output of the program?
+",4 1,5 1,6 1,2 1,A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    const int k=7;
+    int *const q=&k;
+    printf(""%d"", *q);
+    return 0;
+}
+Point out the error in the program.
+",',No error,Error: cannot convert ptr , value,A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    const int k=7;
+    int *const q=&k;
+    printf(""%d"", *q);
+    return 0;
+}
+Point out the error in the program.
+",Error: unknown pointer conversion,No error,None of above,Error: RValue required,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    enum status {pass, fail, absent};
+    enum status stud1, stud2, stud3;
+    stud1 = pass;
+    stud2 = absent;
+    stud3 = fail;
+    printf(""%d %d %d\n"", stud1, stud2, stud3);
+    return 0;
+}
+What will be the output of the program ?
+","12, 12, 12","112, 1, 12","32, 1, 12","-64, 1, 12",A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    enum status {pass, fail, absent};
+    enum status stud1, stud2, stud3;
+    stud1 = pass;
+    stud2 = absent;
+    stud3 = fail;
+    printf(""%d %d %d\n"", stud1, stud2, stud3);
+    return 0;
+}
+What will be the output of the program ?
+",Error: Invalid structure assignment,DRAVID,Dravid,No output,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    enum status {pass, fail, absent};
+    enum status stud1, stud2, stud3;
+    stud1 = pass;
+    stud2 = absent;
+    stud3 = fail;
+    printf(""%d %d %d\n"", stud1, stud2, stud3);
+    return 0;
+}
+What will be the output of the program ?
+","2, 2","8, 8","5, 5","4, 4",A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    enum status {pass, fail, absent};
+    enum status stud1, stud2, stud3;
+    stud1 = pass;
+    stud2 = absent;
+    stud3 = fail;
+    printf(""%d %d %d\n"", stud1, stud2, stud3);
+    return 0;
+}
+What will be the output of the program ?
+",1,-1,0,Error,B,C
+1,1,"#include<stdio.h>
+#include<stdarg.h>
+void display(char *s, ...);
+void show(char *t, ...);
+
+int main()
+{
+    display(""Hello"", 4, 12, 13, 14, 44);
+    return 0;
+}
+void display(char *s, ...)
+{
+    show(s, ...);
+}
+void show(char *t, ...)
+{
+    int a;
+    va_list ptr;
+    va_start(ptr, s);
+    a = va_arg(ptr, int);
+    printf(""%f"", a);
+}
+Point out the error in the following program.
+",No error,Error: Rvalue required for t,Error: too many parameters,Error: invalid access to list member,C,C
+1,1,"#include<stdio.h>
+#define PRINT(int) printf(""int=%d, "", int);
+
+int main()
+{
+    int x=2, y=3, z=4;   
+    PRINT(x);
+    PRINT(y);
+    PRINT(z);
+    return 0;
+}
+What will be the output of the program?
+","a = 10, b = 12","a = 12, b = 10",Error: Declaration not allowed in macro,Error: Undefined symbol 't',B,C
+1,1,"#include<stdio.h>
+#define PRINT(int) printf(""int=%d, "", int);
+
+int main()
+{
+    int x=2, y=3, z=4;   
+    PRINT(x);
+    PRINT(y);
+    PRINT(z);
+    return 0;
+}
+What will be the output of the program?
+",10,20,1020,12,B,C
+1,1,"#include<stdio.h>
+#define PRINT(int) printf(""int=%d, "", int);
+
+int main()
+{
+    int x=2, y=3, z=4;   
+    PRINT(x);
+    PRINT(y);
+    PRINT(z);
+    return 0;
+}
+What will be the output of the program?
+",IndiaBIX...,"
+IndiaBIX...","
+IndiaBIX",IndiaBIX... IndiaBIX...,B,C
+1,1,"#include<stdio.h>
+#define PRINT(int) printf(""int=%d, "", int);
+
+int main()
+{
+    int x=2, y=3, z=4;   
+    PRINT(x);
+    PRINT(y);
+    PRINT(z);
+    return 0;
+}
+What will be the output of the program?
+",Error: cannot use control instructions in macro,No output,8,9,B,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char dest[] = {97, 97, 0};
+    char src[] = ""aaa"";
+    int i;
+    if((i = memcmp(dest, src, 2))==0)
+        printf(""Got it"");
+    else
+        printf(""Missed"");
+    return 0;
+}
+What will function ",Convert vector to integer value,Convert floating-point number to a string,Convert 2D array in to 1D array.,Covert multi Dimensional array to 1D array,B,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char dest[] = {97, 97, 0};
+    char src[] = ""aaa"";
+    int i;
+    if((i = memcmp(dest, src, 2))==0)
+        printf(""Got it"");
+    else
+        printf(""Missed"");
+    return 0;
+}
+What will function ",aaaa,aaaaa,Garbage value.,Error in ,B,C
+1,1,"#include<stdio.h>
+
+void fun(void *p);
+int i;
+
+int main()
+{
+    void *vptr;
+    vptr = &i;
+    fun(vptr);
+    return 0;
+}
+void fun(void *p)
+{
+    int **q;
+    q = (int**)&p;
+    printf(""%d\n"", **q);
+}
+What will be the output of the program ?
+",No output,Error,No output,K,C,C
+1,1,"#include<stdio.h>
+
+void fun(void *p);
+int i;
+
+int main()
+{
+    void *vptr;
+    vptr = &i;
+    fun(vptr);
+    return 0;
+}
+void fun(void *p)
+{
+    int **q;
+    q = (int**)&p;
+    printf(""%d\n"", **q);
+}
+What will be the output of the program ?
+",%s,10,20,Error: Non portable pointer conversion,D,C
+1,1,"#include<stdio.h>
+
+void fun(void *p);
+int i;
+
+int main()
+{
+    void *vptr;
+    vptr = &i;
+    fun(vptr);
+    return 0;
+}
+void fun(void *p)
+{
+    int **q;
+    q = (int**)&p;
+    printf(""%d\n"", **q);
+}
+What will be the output of the program ?
+",Error: cannot use static for function parameters,"2, 1","2, 2","4, 1",C,C
+1,1,"#include<stdio.h>
+
+void fun(void *p);
+int i;
+
+int main()
+{
+    void *vptr;
+    vptr = &i;
+    fun(vptr);
+    return 0;
+}
+void fun(void *p)
+{
+    int **q;
+    q = (int**)&p;
+    printf(""%d\n"", **q);
+}
+What will be the output of the program ?
+","4, 2",JCK,J65K,JAK,D,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int i=4, j=-1, k=0, w, x, y, z;
+    w = i || j || k;
+    x = i && j && k;
+    y = i || j &&k;
+    z = i && j || k;
+    printf(""%d, %d, %d, %d\n"", w, x, y, z);
+    return 0;
+}
+What will be the output of the program?
+","1, 1, 1, 1","1, 1, 0, 1","1, 0, 0, 1","1, 0, 1, 1",D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    printf(""%c\n"", ~('C'*-1));
+    return 0;
+}
+What will be the output of the program ?
+",A,B,C,D,B,C
+1,1,"#include<stdio.h>
+int sumdig(int);
+int main()
+{
+    int a, b;
+    a = sumdig(123);
+    b = sumdig(123);
+    printf(""%d, %d\n"", a, b);
+    return 0;
+}
+int sumdig(int n)
+{
+    int s, d;
+    if(n!=0)
+    {
+        d = n%10;
+        n = n/10;
+        s = d+sumdig(n);
+    }
+    else
+        return 0;
+    return s;
+}
+What will be the output of the program?
+","4, 4","3, 3","6, 6","12, 12",C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    void fun();
+    fun();
+    printf(""\n"");
+    return 0;
+}
+void fun()
+{
+    char c;
+    if((c = getchar())!= '\n')
+        fun();
+    printf(""%c"", c);
+}
+What will be the output of the program ?
+",abc abc,bca,Infinite loop,cba,D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    enum days {MON=-1, TUE, WED=6, THU, FRI, SAT};
+    printf(""%d, %d, %d, %d, %d, %d\n"", ++MON, TUE, WED, THU, FRI, SAT);
+    return 0;
+}
+What will be the output of the program ?
+","-1, 0, 1, 2, 3, 4",Error,"0, 1, 6, 3, 4, 5","0, 0, 6, 7, 8, 9",B,C
+1,1,"#include<stdio.h>
+#define MIN(x, y) (x<y)? x : y;
+int main()
+{
+    int x=3, y=4, z;
+    z = MIN(x+y/2, y-1);
+    if(z > 0)
+        printf(""%d\n"", z);
+    return 0;
+}
+What will be the output of the program?
+",3,4,0,No output,A,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    int i, n;
+    char *x=""Alice"";
+    n = strlen(x);
+    *x = x[n];
+    for(i=0; i<=n; i++)
+    {
+        printf(""%s "", x);
+        x++;
+    }
+    printf(""\n"", x);
+    return 0;
+}
+What will be the output of the program ?
+",Alice,ecilA,Alice lice ice ce e,lice ice ce e,D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[] = ""peace"";
+    char *s = str;
+    printf(""%s\n"", s++ +3);
+    return 0;
+}
+What will be the output of the program ?
+",peace,eace,ace,ce,D,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int i=4, j=-1, k=0, w, x, y, z;
+    w = i || j || k;
+    x = i && j && k;
+    y = i || j &&k;
+    z = i && j || k;
+    printf(""%d, %d, %d, %d\n"", w, x, y, z);
+    return 0;
+}
+What will be the output of the program?
+","1, 2, 0, 1","-3, 2, 0, 1","-2, 3, 0, 1","2, 3, 1, 1",C,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int i=4, j=-1, k=0, w, x, y, z;
+    w = i || j || k;
+    x = i && j && k;
+    y = i || j &&k;
+    z = i && j || k;
+    printf(""%d, %d, %d, %d\n"", w, x, y, z);
+    return 0;
+}
+What will be the output of the program?
+","4, 3, 3","4, 3, 2","3, 3, 2","2, 3, 3",D,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int i=4, j=-1, k=0, w, x, y, z;
+    w = i || j || k;
+    x = i && j && k;
+    y = i || j &&k;
+    z = i && j || k;
+    printf(""%d, %d, %d, %d\n"", w, x, y, z);
+    return 0;
+}
+What will be the output of the program?
+",3,4,5,6,B,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int i=4, j=-1, k=0, w, x, y, z;
+    w = i || j || k;
+    x = i && j && k;
+    y = i || j &&k;
+    z = i && j || k;
+    printf(""%d, %d, %d, %d\n"", w, x, y, z);
+    return 0;
+}
+What will be the output of the program?
+",c=100,c=200,c=1,c=300,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    printf(""%c\n"", ~('C'*-1));
+    return 0;
+}
+What will be the output of the program ?
+",This is IndiaBIX,This is,Infinite loop,Error,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    printf(""%c\n"", ~('C'*-1));
+    return 0;
+}
+What will be the output of the program ?
+",21,23,Error,No output,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    printf(""%c\n"", ~('C'*-1));
+    return 0;
+}
+What will be the output of the program ?
+","Print the contents of file ""myfile.c""","Print the contents of file ""myfile.c"" upto NULL character",Infinite loop,Error in program,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    printf(""%c\n"", ~('C'*-1));
+    return 0;
+}
+What will be the output of the program ?
+",%%%%%,%%,No output,Error,B,C
+1,1,"#include<stdio.h>
+int sumdig(int);
+int main()
+{
+    int a, b;
+    a = sumdig(123);
+    b = sumdig(123);
+    printf(""%d, %d\n"", a, b);
+    return 0;
+}
+int sumdig(int n)
+{
+    int s, d;
+    if(n!=0)
+    {
+        d = n%10;
+        n = n/10;
+        s = d+sumdig(n);
+    }
+    else
+        return 0;
+    return s;
+}
+What will be the output of the program?
+",AB,BC,CD,No output,B,C
+1,1,"#include<stdio.h>
+int sumdig(int);
+int main()
+{
+    int a, b;
+    a = sumdig(123);
+    b = sumdig(123);
+    printf(""%d, %d\n"", a, b);
+    return 0;
+}
+int sumdig(int n)
+{
+    int s, d;
+    if(n!=0)
+    {
+        d = n%10;
+        n = n/10;
+        s = d+sumdig(n);
+    }
+    else
+        return 0;
+    return s;
+}
+What will be the output of the program?
+",9,10,11,8,A,C
+1,1,"#include<stdio.h>
+int sumdig(int);
+int main()
+{
+    int a, b;
+    a = sumdig(123);
+    b = sumdig(123);
+    printf(""%d, %d\n"", a, b);
+    return 0;
+}
+int sumdig(int n)
+{
+    int s, d;
+    if(n!=0)
+    {
+        d = n%10;
+        n = n/10;
+        s = d+sumdig(n);
+    }
+    else
+        return 0;
+    return s;
+}
+What will be the output of the program?
+",Print 10,Print 20,Print 1,Compile error,D,C
+1,1,"#include<stdio.h>
+int sumdig(int);
+int main()
+{
+    int a, b;
+    a = sumdig(123);
+    b = sumdig(123);
+    printf(""%d, %d\n"", a, b);
+    return 0;
+}
+int sumdig(int n)
+{
+    int s, d;
+    if(n!=0)
+    {
+        d = n%10;
+        n = n/10;
+        s = d+sumdig(n);
+    }
+    else
+        return 0;
+    return s;
+}
+What will be the output of the program?
+",6,1,0,-1,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    void fun();
+    fun();
+    printf(""\n"");
+    return 0;
+}
+void fun()
+{
+    char c;
+    if((c = getchar())!= '\n')
+        fun();
+    printf(""%c"", c);
+}
+What will be the output of the program ?
+",Error,India BIX,India,BIX,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    void fun();
+    fun();
+    printf(""\n"");
+    return 0;
+}
+void fun()
+{
+    char c;
+    if((c = getchar())!= '\n')
+        fun();
+    printf(""%c"", c);
+}
+What will be the output of the program ?
+",Error,IndiaBIX,Cannot predict,None of above,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    void fun();
+    fun();
+    printf(""\n"");
+    return 0;
+}
+void fun()
+{
+    char c;
+    if((c = getchar())!= '\n')
+        fun();
+    printf(""%c"", c);
+}
+What will be the output of the program ?
+","Suresh, Siva, Sona, Baiju, Ritu","Suresh, Siva, Sona, Ritu, Baiju","Suresh, Siva, Baiju, Sona, Ritu","Suresh, Siva, Ritu, Sona, Baiju",B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    void fun();
+    fun();
+    printf(""\n"");
+    return 0;
+}
+void fun()
+{
+    char c;
+    if((c = getchar())!= '\n')
+        fun();
+    printf(""%c"", c);
+}
+What will be the output of the program ?
+",10,6,5,11,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    enum days {MON=-1, TUE, WED=6, THU, FRI, SAT};
+    printf(""%d, %d, %d, %d, %d, %d\n"", ++MON, TUE, WED, THU, FRI, SAT);
+    return 0;
+}
+What will be the output of the program ?
+",103 DotNet,102 Java,103 PHP,104 DotNet,A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    enum days {MON=-1, TUE, WED=6, THU, FRI, SAT};
+    printf(""%d, %d, %d, %d, %d, %d\n"", ++MON, TUE, WED, THU, FRI, SAT);
+    return 0;
+}
+What will be the output of the program ?
+",1,2,4,10,B,C
+1,1,"#include<stdio.h>
+#define MIN(x, y) (x<y)? x : y;
+int main()
+{
+    int x=3, y=4, z;
+    z = MIN(x+y/2, y-1);
+    if(z > 0)
+        printf(""%d\n"", z);
+    return 0;
+}
+What will be the output of the program?
+",Error: in macro substitution,Error: invalid reference ,' in macro,print 'multiply',C,C
+1,1,"#include<stdio.h>
+#define MIN(x, y) (x<y)? x : y;
+int main()
+{
+    int x=3, y=4, z;
+    z = MIN(x+y/2, y-1);
+    if(z > 0)
+        printf(""%d\n"", z);
+    return 0;
+}
+What will be the output of the program?
+",No output,junk,MESS,Error,B,C
+1,1,"#include<stdio.h>
+#define MIN(x, y) (x<y)? x : y;
+int main()
+{
+    int x=3, y=4, z;
+    z = MIN(x+y/2, y-1);
+    if(z > 0)
+        printf(""%d\n"", z);
+    return 0;
+}
+What will be the output of the program?
+",Nothing will print,"2, 3, 4,","2, 2, 2,","3, 3, 3,",A,C
+1,1,"#include<stdio.h>
+#define MIN(x, y) (x<y)? x : y;
+int main()
+{
+    int x=3, y=4, z;
+    z = MIN(x+y/2, y-1);
+    if(z > 0)
+        printf(""%d\n"", z);
+    return 0;
+}
+What will be the output of the program?
+","4, 4, 4,",5,9,10,C,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    int i, n;
+    char *x=""Alice"";
+    n = strlen(x);
+    *x = x[n];
+    for(i=0; i<=n; i++)
+    {
+        printf(""%s "", x);
+        x++;
+    }
+    printf(""\n"", x);
+    return 0;
+}
+What will be the output of the program ?
+","7, 9, 11, 13, 15","2, 15, 6, 8, 10",2 4 6 8 10,"3, 1, -1, -3, -5",B,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    int i, n;
+    char *x=""Alice"";
+    n = strlen(x);
+    *x = x[n];
+    for(i=0; i<=n; i++)
+    {
+        printf(""%s "", x);
+        x++;
+    }
+    printf(""\n"", x);
+    return 0;
+}
+What will be the output of the program ?
+","10, 2, 4","20, 4, 4","16, 2, 2","20, 2, 2",B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[] = ""peace"";
+    char *s = str;
+    printf(""%s\n"", s++ +3);
+    return 0;
+}
+What will be the output of the program ?
+",llo,hello,ello,h,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[] = ""peace"";
+    char *s = str;
+    printf(""%s\n"", s++ +3);
+    return 0;
+}
+What will be the output of the program ?
+","1002, 2004, 4008, 2","2004, 4008, 8016, 1","1002, 1002, 1002, 1",Error,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[] = ""peace"";
+    char *s = str;
+    printf(""%s\n"", s++ +3);
+    return 0;
+}
+What will be the output of the program ?
+",5,25,125,Garbage value,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[] = ""peace"";
+    char *s = str;
+    printf(""%s\n"", s++ +3);
+    return 0;
+}
+What will be the output of the program ?
+",IndiaBIX,BndiaBIdiaBIXia,India,(null),B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int arr[2][2][2] = {10, 2, 3, 4, 5, 6, 7, 8};
+    int *p, *q;
+    p = &arr[1][1][1];
+    q = (int*) arr;
+    printf(""%d, %d\n"", *p, *q);
+    return 0;
+}
+What will be the output of the program assuming that the array begins at the location 1002 and size of an integer is 4 bytes?
+","8, 10","10, 2","8, 1",Garbage values,A,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x=55;
+    printf(""%d, %d, %d\n"", x<=55, x=40, x>=10);
+    return 0;
+}
+What will be the output of the program?
+","1, 40, 1","1, 55, 1","1, 55, 0","1, 1, 1",A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int a=250;
+    printf(""%1d\n"", a);
+    return 0;
+}
+What will be the output of the program ?
+",1250,2,50,250,D,C
+1,1,"for loop get executed?
+",The , loop would not get executed at all,The , loop would get executed only once,D,C
+1,1,"#include<stdio.h>
+int check(int);
+int main()
+{
+    int i=45, c;
+    c = check(i);
+    printf(""%d\n"", c);
+    return 0;
+}
+int check(int ch)
+{
+    if(ch >= 45)
+        return 100;
+    else
+        return 10;
+}
+If ",100,10,1,0,A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int i=1;
+    if(!i)
+        printf(""IndiaBIX,"");
+    else
+    {
+        i=0;
+        printf(""C-Program"");
+        main();
+    }
+    return 0;
+}
+What will be the output of the program?
+","prints ""IndiaBIX, C-Program"" infinitely","prints ""C-Program"" infinetly","prints ""C-Program, IndiaBIX"" infinitely",Error: ,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[10] = ""India"";
+    str[6] = ""BIX"";
+    printf(""%s\n"", str);
+    return 0;
+}
+What will be the output of the program ?
+",India BIX,BIX,India,Error,D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int arr[2][2][2] = {10, 2, 3, 4, 5, 6, 7, 8};
+    int *p, *q;
+    p = &arr[1][1][1];
+    q = (int*) arr;
+    printf(""%d, %d\n"", *p, *q);
+    return 0;
+}
+What will be the output of the program assuming that the array begins at the location 1002 and size of an integer is 4 bytes?
+","448, 4, 4","520, 2, 2","1006, 2, 2",Error,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int arr[2][2][2] = {10, 2, 3, 4, 5, 6, 7, 8};
+    int *p, *q;
+    p = &arr[1][1][1];
+    q = (int*) arr;
+    printf(""%d, %d\n"", *p, *q);
+    return 0;
+}
+What will be the output of the program assuming that the array begins at the location 1002 and size of an integer is 4 bytes?
+","2, 3","2, 0","2, Garbage value","0, 0",B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int arr[2][2][2] = {10, 2, 3, 4, 5, 6, 7, 8};
+    int *p, *q;
+    p = &arr[1][1][1];
+    q = (int*) arr;
+    printf(""%d, %d\n"", *p, *q);
+    return 0;
+}
+What will be the output of the program assuming that the array begins at the location 1002 and size of an integer is 4 bytes?
+",No output,30,3,300,D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int arr[2][2][2] = {10, 2, 3, 4, 5, 6, 7, 8};
+    int *p, *q;
+    p = &arr[1][1][1];
+    q = (int*) arr;
+    printf(""%d, %d\n"", *p, *q);
+    return 0;
+}
+What will be the output of the program assuming that the array begins at the location 1002 and size of an integer is 4 bytes?
+",Error: in printf,Nothing will print,"print ""X"" of IndiaBIX","print ""7""",C,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x=55;
+    printf(""%d, %d, %d\n"", x<=55, x=40, x>=10);
+    return 0;
+}
+What will be the output of the program?
+","3, 4","4, 3","4, 4",Output may vary from compiler to compiler,D,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x=55;
+    printf(""%d, %d, %d\n"", x<=55, x=40, x>=10);
+    return 0;
+}
+What will be the output of the program?
+",200,30,100,500,B,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x=55;
+    printf(""%d, %d, %d\n"", x<=55, x=40, x>=10);
+    return 0;
+}
+What will be the output of the program?
+",The letter is a,Now the letter is A,The letter is A,Now the letter is a,A,C
+1,1,"#include<stdio.h>
+int main()
+{
+    int x=55;
+    printf(""%d, %d, %d\n"", x<=55, x=40, x>=10);
+    return 0;
+}
+What will be the output of the program?
+",Error,None of above,4,7,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int a=250;
+    printf(""%1d\n"", a);
+    return 0;
+}
+What will be the output of the program ?
+",agpur,gpur,Nagp,agpu,D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int a=250;
+    printf(""%1d\n"", a);
+    return 0;
+}
+What will be the output of the program ?
+",25,2,1,5,C,C
+1,1,"for loop get executed?
+",The , loop would get executed 5 times,The , loop would get executed infinite times,B,C
+1,1,"#include<stdio.h>
+int check(int);
+int main()
+{
+    int i=45, c;
+    c = check(i);
+    printf(""%d\n"", c);
+    return 0;
+}
+int check(int ch)
+{
+    if(ch >= 45)
+        return 100;
+    else
+        return 10;
+}
+If ",ab,cd,ef,gh,B,C
+1,1,"#include<stdio.h>
+int check(int);
+int main()
+{
+    int i=45, c;
+    c = check(i);
+    printf(""%d\n"", c);
+    return 0;
+}
+int check(int ch)
+{
+    if(ch >= 45)
+        return 100;
+    else
+        return 10;
+}
+If ",Infinite loop,Hi,Hello Hi,Error,C,C
+1,1,"#include<stdio.h>
+int check(int);
+int main()
+{
+    int i=45, c;
+    c = check(i);
+    printf(""%d\n"", c);
+    return 0;
+}
+int check(int ch)
+{
+    if(ch >= 45)
+        return 100;
+    else
+        return 10;
+}
+If ",5,4,Error,Garbage value,A,C
+1,1,"#include<stdio.h>
+int check(int);
+int main()
+{
+    int i=45, c;
+    c = check(i);
+    printf(""%d\n"", c);
+    return 0;
+}
+int check(int ch)
+{
+    if(ch >= 45)
+        return 100;
+    else
+        return 10;
+}
+If ",5.000000,3.000000,Garbage value,4.000000,A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int i=1;
+    if(!i)
+        printf(""IndiaBIX,"");
+    else
+    {
+        i=0;
+        printf(""C-Program"");
+        main();
+    }
+    return 0;
+}
+What will be the output of the program?
+", should not inside , statement,12 12,"No error, No output",A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int i=1;
+    if(!i)
+        printf(""IndiaBIX,"");
+    else
+    {
+        i=0;
+        printf(""C-Program"");
+        main();
+    }
+    return 0;
+}
+What will be the output of the program?
+",Error: Compile error,None of above,"3, 4, 4, 3","4, 3, 4, 3",B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int i=1;
+    if(!i)
+        printf(""IndiaBIX,"");
+    else
+    {
+        i=0;
+        printf(""C-Program"");
+        main();
+    }
+    return 0;
+}
+What will be the output of the program?
+","3, 3, 4, 4","3, 4, 3, 4",k=35,k=36,D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    int i=1;
+    if(!i)
+        printf(""IndiaBIX,"");
+    else
+    {
+        i=0;
+        printf(""C-Program"");
+        main();
+    }
+    return 0;
+}
+What will be the output of the program?
+",k=37,k=38,"12, 12","7, 7",A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[10] = ""India"";
+    str[6] = ""BIX"";
+    printf(""%s\n"", str);
+    return 0;
+}
+What will be the output of the program ?
+",Equal,Unequal,Error,None of above,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[10] = ""India"";
+    str[6] = ""BIX"";
+    printf(""%s\n"", str);
+    return 0;
+}
+What will be the output of the program ?
+",India BIX,BIX India,India India,BIX BIX,B,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[10] = ""India"";
+    str[6] = ""BIX"";
+    printf(""%s\n"", str);
+    return 0;
+}
+What will be the output of the program ?
+",Error,d,e,abcdefgh,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[10] = ""India"";
+    str[6] = ""BIX"";
+    printf(""%s\n"", str);
+    return 0;
+}
+What will be the output of the program ?
+",1022 Hello2,Hello1 1022,Hello1 Hello2,1022 1022,A,C
+1,1,"#include<stdio.h>
+void swap(char *, char *);
+
+int main()
+{
+    char *pstr[2] = {""Hello"", ""IndiaBIX""};
+    swap(pstr[0], pstr[1]);
+    printf(""%s\n%s"", pstr[0], pstr[1]);
+    return 0;
+}
+void swap(char *t1, char *t2)
+{
+    char *t;
+    t=t1;
+    t1=t2;
+    t2=t;
+}
+What will be the output of the program (Turbo C in 16 bit platform DOS) ?
+",IndiaBIX,Hello,"Address of ""Hello"" and ""IndiaBIX""",Hello,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[25] = ""IndiaBIX"";
+    printf(""%s\n"", &str+2);
+    return 0;
+}
+What will be the output of the program ?
+",Garbage value,Error,No output,diaBIX,A,C
+1,1,"char=1, int=4, and ","1, 2, 4","1, 4, 4","2, 2, 4","2, 4, 8",B,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    static char str1[] = ""dills"";
+    static char str2[20];
+    static char str3[] = ""Daffo"";
+    int i;
+    i = strcmp(strcat(str3, strcpy(str2, str1)), ""Daffodills"");
+    printf(""%d\n"", i);
+    return 0;
+}
+What will be the output of the program ?
+",0,1,2,4,A,C
+1,1,"#include<stdio.h>
+int X=40;
+int main()
+{
+    int X=20;
+    printf(""%d\n"", X);
+    return 0;
+}
+What is the output of the program
+",20,40,Error,No Output,A,C
+1,1,"#include<stdio.h>
+void swap(char *, char *);
+
+int main()
+{
+    char *pstr[2] = {""Hello"", ""IndiaBIX""};
+    swap(pstr[0], pstr[1]);
+    printf(""%s\n%s"", pstr[0], pstr[1]);
+    return 0;
+}
+void swap(char *t1, char *t2)
+{
+    char *t;
+    t=t1;
+    t1=t2;
+    t2=t;
+}
+What will be the output of the program (Turbo C in 16 bit platform DOS) ?
+",IndiaBIX,Iello,HndiaBIX,IndiaBIX India,B,C
+1,1,"#include<stdio.h>
+void swap(char *, char *);
+
+int main()
+{
+    char *pstr[2] = {""Hello"", ""IndiaBIX""};
+    swap(pstr[0], pstr[1]);
+    printf(""%s\n%s"", pstr[0], pstr[1]);
+    return 0;
+}
+void swap(char *t1, char *t2)
+{
+    char *t;
+    t=t1;
+    t1=t2;
+    t2=t;
+}
+What will be the output of the program (Turbo C in 16 bit platform DOS) ?
+",IndiaBIX IndiaBIX,India India,Error,"22, 4",C,C
+1,1,"#include<stdio.h>
+void swap(char *, char *);
+
+int main()
+{
+    char *pstr[2] = {""Hello"", ""IndiaBIX""};
+    swap(pstr[0], pstr[1]);
+    printf(""%s\n%s"", pstr[0], pstr[1]);
+    return 0;
+}
+void swap(char *t1, char *t2)
+{
+    char *t;
+    t=t1;
+    t1=t2;
+    t2=t;
+}
+What will be the output of the program (Turbo C in 16 bit platform DOS) ?
+","25, 5","24, 5","20, 2",The string is not empty,B,C
+1,1,"#include<stdio.h>
+void swap(char *, char *);
+
+int main()
+{
+    char *pstr[2] = {""Hello"", ""IndiaBIX""};
+    swap(pstr[0], pstr[1]);
+    printf(""%s\n%s"", pstr[0], pstr[1]);
+    return 0;
+}
+void swap(char *t1, char *t2)
+{
+    char *t;
+    t=t1;
+    t1=t2;
+    t2=t;
+}
+What will be the output of the program (Turbo C in 16 bit platform DOS) ?
+",The string is empty,No output,0,Unpredictable integer value,A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[25] = ""IndiaBIX"";
+    printf(""%s\n"", &str+2);
+    return 0;
+}
+What will be the output of the program ?
+",Error,IndiaBIX,Base address of ,No output,A,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[25] = ""IndiaBIX"";
+    printf(""%s\n"", &str+2);
+    return 0;
+}
+What will be the output of the program ?
+","Kagpur, Kanpur","Nagpur, Kanpur","Kagpur, anpur",Error,D,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[25] = ""IndiaBIX"";
+    printf(""%s\n"", &str+2);
+    return 0;
+}
+What will be the output of the program ?
+",Error,IndiaBIX,BIX,None of above,C,C
+1,1,"#include<stdio.h>
+
+int main()
+{
+    char str[25] = ""IndiaBIX"";
+    printf(""%s\n"", &str+2);
+    return 0;
+}
+What will be the output of the program ?
+",The sentence will get printed in same order as it entered,The sentence will get printed in reverse order,Half of the sentence will get printed,None of above,B,C
+1,1,"char=1, int=4, and ","10, 2","2, 2","10, 4","1, 2",C,C
+1,1,"char=1, int=4, and ","11, 4","1, 1","12, 2","2, 2",B,C
+1,1,"char=1, int=4, and ","t, t","k, k","n, k","m, f",A,C
+1,1,"char=1, int=4, and ",Hello,HelloHello,No output,ello,D,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    static char str1[] = ""dills"";
+    static char str2[20];
+    static char str3[] = ""Daffo"";
+    int i;
+    i = strcmp(strcat(str3, strcpy(str2, str1)), ""Daffodills"");
+    printf(""%d\n"", i);
+    return 0;
+}
+What will be the output of the program ?
+",8,0,16,Error,B,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    static char str1[] = ""dills"";
+    static char str2[20];
+    static char str3[] = ""Daffo"";
+    int i;
+    i = strcmp(strcat(str3, strcpy(str2, str1)), ""Daffodills"");
+    printf(""%d\n"", i);
+    return 0;
+}
+What will be the output of the program ?
+",hhe!,he c,The c,Hhec,A,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    static char str1[] = ""dills"";
+    static char str2[20];
+    static char str3[] = ""Daffo"";
+    int i;
+    i = strcmp(strcat(str3, strcpy(str2, str1)), ""Daffodills"");
+    printf(""%d\n"", i);
+    return 0;
+}
+What will be the output of the program ?
+","8, 1, 4","4, 2, 8","4, 2, 4","10, 3, 4",B,C
+1,1,"#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    static char str1[] = ""dills"";
+    static char str2[20];
+    static char str3[] = ""Daffo"";
+    int i;
+    i = strcmp(strcat(str3, strcpy(str2, str1)), ""Daffodills"");
+    printf(""%d\n"", i);
+    return 0;
+}
+What will be the output of the program ?
+",The string is empty,The string is not empty,No output,0,B,C
+1,1,"#include<stdio.h>
+int X=40;
+int main()
+{
+    int X=20;
+    printf(""%d\n"", X);
+    return 0;
+}
+What is the output of the program
+",0,1,Error,None of these,B,C
+1,1,"#include<stdio.h>
+int X=40;
+int main()
+{
+    int X=20;
+    printf(""%d\n"", X);
+    return 0;
+}
+What is the output of the program
+",3,3.14,0 ,4,E,C
+1,1,"#include<stdio.h>
+int X=40;
+int main()
+{
+    int X=20;
+    printf(""%d\n"", X);
+    return 0;
+}
+What is the output of the program
+",Compile Error,Garbage Values,"2, 3, 3","3, 2, 2",D,C
+1,1,"#include<stdio.h>
+int X=40;
+int main()
+{
+    int X=20;
+    printf(""%d\n"", X);
+    return 0;
+}
+What is the output of the program
+","0, 0, 0","3, 2, 515","515, 2, 3","3, 2, 5",A,C

@@ -1,0 +1,81 @@
+     ant = response.xpath(u'//*[@id="post-body-6027800088571461909"]/div[1]/div/div[27]/i/text()').extract()
+       f= open(r"C:\\Users\\Abhijit.shete\\3D Objects\\music\\music\\spiders\\sargam.txt","w",encoding='utf-8')
+     
+        for i in l:
+            f.write(i+"\n")
+        f.close()
+
+        name =  response.xpath("//title/text()").extract()[0]
+        yield{
+            'Song Name':name,
+            'Sargam':l,
+        }
+    
+           
+           
+           
+           
+ yield Request(i, callback=self.parse_book,dont_filter=True)
+
+    
+
+
+    def parse_book(self, response):
+        
+        song_list = response.xpath(u'//h2[@class="post-title entry-title"]//a/@href').extract()
+        
+        for link in song_list:
+             yield Request(link, callback=self.extract_sargam,dont_filter=True)
+             break
+            
+        
+    def extract_sargam(self,response):
+
+        notes = response.xpath(u'//div[@class="post-body entry-content"]//div/text()').extract()
+        f= open(r"C:\\Users\\Abhijit.shete\\3D Objects\\music\\music\\spiders\\guru99.txt","w",encoding='utf-8')
+        for i in notes:
+            f.write(i)
+        
+        f.close()
+        name =  response.xpath("//title/text()").extract()[0]
+        
+        self.clean_file(name)
+
+    def clean_file(self,name):
+
+        with open(r"C:\\Users\\Abhijit.shete\\3D Objects\\music\\music\\spiders\\guru99.txt",'r',encoding='utf-8') as myfile:
+            result = '\n\n'.join([line.strip() for line in myfile if line.strip()])
+        l = result.split("\n")
+        f= open(r"C:\\Users\\Abhijit.shete\\3D Objects\\music\\music\\spiders\\sargam.txt","w",encoding='utf-8')
+       
+        for i in l:
+            f.write(i+"\n")
+        f.close() 
+       
+        db = mysql.connect(
+                host = "localhost",
+                user = "root",
+                passwd ="abhi.239",
+                database = "btre"
+            )
+
+        cursor = db.cursor()
+
+        file = open(r"C:\\Users\\Abhijit.shete\\3D Objects\\music\\music\\spiders\\sargam.txt", 'r',encoding='utf-8')
+        file_content = file.read()
+        file.close()
+
+        query = "INSERT INTO sargam VALUES (%s,%s)"
+        
+        l = name.partition('|')
+        
+        n = l[0]+'| Abhijeet Shete'
+
+        cursor.execute(query, (n,file_content,))
+
+        db.commit()
+        db.close()
+    
+
+        
+    
